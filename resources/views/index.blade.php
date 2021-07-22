@@ -23,7 +23,7 @@
         {{--loading page--}}
         {{--loading page--}}
         {{-- nav --}}
-        <div class=" fixed top-0 w-full py-2 px-4 bg-gray-100 bg-opacity-80" id="nav" style="z-index: 999;>
+        <div class=" fixed top-0 w-full py-2 px-4 bg-gray-100 bg-opacity-80 hidden lg:block" id="nav" style="z-index: 999;>
             <div class=" container m-auto">
             <div class="w-full flex text-gray-800">
                 <div class="">
@@ -157,23 +157,23 @@
         </div>
     </div>
     {{-- nav --}}
-    <div class="w-screen h-screen pt-20">
-        <div class="container h-4/5 relative">
-            <div class="h-full w-full absolute flex justify-center items-center px-20">
-                <div class="h-full w-full border border-yellow-900 -mr-12 -mb-12"></div>
+    <div class="w-screen h-screen pt-20" id="header">
+        <div class="container h-full  lg:h-4/5 relative">
+            <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
+                <div class="h-full w-full border border-yellow-900 lg:-mr-12 lg:-mb-12 -mr-4 -mb-4"></div>
             </div>
-            <div class="h-full w-full absolute flex justify-center items-center px-20">
+            <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
                 <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/bg3.jpg')">
                 </div>
             </div>
         </div>
     </div>
-    <div class=" h-screen -mt-20 relative">
-        <div class=" lg:grid lg:grid-cols-3 lg:grid-rows-2 gap-2 px-4">
-            <div class="w-full lg:w-auto">
+    <div class=" h-screen mt-10 lg:-mt-20 relative">
+        <div class="flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-2 px-4">
+            <div class="lg:col-span-1 w-full lg:w-auto">
                 <img src="/img/bg2.jpg" alt="" class="">
             </div>
-            <div class="w-full lg:w-auto lg:col-span-2  bg-opacity-50 bg-white p-4">
+            <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-50 bg-white p-4 mb-2 lg:mb-0">
                 <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
                     關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
                 </p>
@@ -192,9 +192,9 @@
 
                 </p>
             </div>
-            <div class="w-full lg:w-auto bg-cover bg-bottom h-52 lg:h-auto" style="background-image: url('/img/about/homestay.jpg">
-                <button type="button" class="w-full h-full block">
-                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+            <div class="w-1/2 lg:w-auto h-28 lg:h-auto pr-1 lg:pr-0" >
+                <button type="button" class="w-full h-full block bg-cover bg-bottom" style="background-image: url('/img/about/homestay.jpg">
+                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                         <div class=" text-white text-xl text-center">
                             <p class="text-2xl mb-4">好客民宿</p>
                             <p class="">2021年</p>
@@ -203,9 +203,9 @@
                     </div>
                 </button>
             </div>
-            <div class="w-full lg:w-auto bg-cover bg-bottom h-52 lg:h-auto" style="background-image: url('/img/coffee/coffee-bg.jpg')">
-                <button type="button" class="w-full h-full block">
-                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+            <div class="w-1/2 lg:w-auto  h-28 lg:h-auto pl-1 lg:pl-0" >
+                <button type="button" class="w-full h-full block bg-cover bg-bottom" style="background-image: url('/img/coffee/coffee-bg.jpg')">
+                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                         <div class=" text-white text-xl text-center">
                             <p class="text-2xl mb-4">天玉園優豆品牌</p>
                             <p class="">英國City&Guilds</p>
@@ -214,7 +214,7 @@
                     </div>
                 </button>
             </div>
-            <div class="w-full lg:w-auto bg-cover bg-bottom h-52 lg:h-auto" style="background-image: url('/img/bg3.jpg')">
+            <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0" style="background-image: url('/img/bg3.jpg')">
                 <button type="button" class="w-full h-full block">
                     <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                         <div class=" text-white text-xl text-center">

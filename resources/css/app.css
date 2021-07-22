@@ -8,3 +8,9 @@
 * {
     -ms-overflow-style: none;
 }
+@media (max-width: 1023px) {
+    #header{
+        height: 40vh;
+    }
+}
+
