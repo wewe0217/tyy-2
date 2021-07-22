@@ -18,10 +18,10 @@
 
 </head>
 
-<body class="w-screen m-0 p-0 bg-gray-900 relative">
+<body class="w-screen m-0 p-0 relative bg-fixed bg-center bg-cover" style="background-image: url('/img/bg4.jpg')">
 {{--loading page--}}
 {{--loading page--}}
-<div class=" fixed top-0 w-full py-4" id="nav">
+<div class=" fixed top-0 w-full py-4 px-4" id="nav" style="z-index: 999">
     <div class=" container m-auto">
         <div class="w-full flex text-white">
             <div class="">
@@ -44,14 +44,30 @@
             <div class=" flex items-end">
                 <div class="">
                     <span class="mr-2 ml-4 border-r h-full border-white"></span>
-                    <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i> 訂房專線:(05)2627-233</button>
+                    <button type="button" class=" text-xl"><i class="fas fa-phone-volume"></i> 訂房專線:(05)2627-233</button>
                     <span class="mx-2 border-r h-full border-white"></span>
-                    <button type="button" class=" text-lg"><i class="fab fa-facebook-square"></i> Facebook</button>
+                    <button type="button" class=" text-xl"><i class="fab fa-facebook-square"></i> Facebook</button>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<div class="p-3 flex flex-col bg-black bg-opacity-90 backdrop-filter backdrop-blur">
+    <div class="h-28">
+    </div>
+    <div class="flex-grow">
+        <div class="container m-auto py-4 bg-cover h-full relative">
+            <div class="w-full h-full flex flex-row-reverse relative">
+                <div class=" w-1/4 h-screen bg-cover " style="background-image: url('/img/bg3.jpg');"></div>
+            </div>
+
+        </div>
+    </div>
+    {{-- <div class=" h-20"></div> --}}
+</div>
+<div class="h-screen bg-black bg-opacity-80 backdrop-filter backdrop-blur"></div>
+
+
 {{-- <div class="w-screen h-screen">
 <div class=" absolute top-8 w-full" style="z-index: 999">
     <div class="container m-auto flex">
