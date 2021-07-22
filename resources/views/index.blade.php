@@ -169,11 +169,11 @@
         </div>
     </div>
     <div class=" h-screen -mt-20 relative">
-        <div class=" grid grid-cols-3 grid-rows-2 gap-2 px-4">
-            <div class="">
+        <div class=" lg:grid lg:grid-cols-3 lg:grid-rows-2 gap-2 px-4">
+            <div class="w-full lg:w-auto">
                 <img src="/img/bg2.jpg" alt="" class="">
             </div>
-            <div class="col-span-2  bg-opacity-50 bg-white p-4">
+            <div class="w-full lg:w-auto lg:col-span-2  bg-opacity-50 bg-white p-4">
                 <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
                     關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
                 </p>
@@ -184,7 +184,7 @@
                     地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷
                 </p>
                 <p class="mt-4">
-                    在2014年夫妻倆毅然決然將人生的下半場全心全力投入此地
+                    2014年夫妻倆毅然決然將人生的下半場全心全力投入此地
                     以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神
                     打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」
                 </p>
@@ -192,7 +192,7 @@
 
                 </p>
             </div>
-            <div class=" bg-cover bg-bottom group" style="background-image: url('/img/about/homestay.jpg">
+            <div class="w-full lg:w-auto bg-cover bg-bottom h-52 lg:h-auto" style="background-image: url('/img/about/homestay.jpg">
                 <button type="button" class="w-full h-full block">
                     <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                         <div class=" text-white text-xl text-center">
@@ -203,7 +203,7 @@
                     </div>
                 </button>
             </div>
-            <div class=" bg-cover bg-bottom" style="background-image: url('/img/coffee/coffee-bg.jpg')">
+            <div class="w-full lg:w-auto bg-cover bg-bottom h-52 lg:h-auto" style="background-image: url('/img/coffee/coffee-bg.jpg')">
                 <button type="button" class="w-full h-full block">
                     <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                         <div class=" text-white text-xl text-center">
@@ -214,7 +214,7 @@
                     </div>
                 </button>
             </div>
-            <div class=" bg-cover bg-bottom" style="background-image: url('/img/bg3.jpg')">
+            <div class="w-full lg:w-auto bg-cover bg-bottom h-52 lg:h-auto" style="background-image: url('/img/bg3.jpg')">
                 <button type="button" class="w-full h-full block">
                     <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                         <div class=" text-white text-xl text-center">
