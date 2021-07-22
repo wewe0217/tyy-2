@@ -23,21 +23,21 @@
         {{--loading page--}}
         {{--loading page--}}
         {{-- nav --}}
-        <div class=" fixed top-0 w-full py-2 px-4" id="nav" style="z-index: 999;background-color: #E8F4D9E6">
+        <div class=" fixed top-0 w-full py-2 px-4 bg-gray-100 bg-opacity-80" id="nav" style="z-index: 999;>
             <div class=" container m-auto">
-                <div class="w-full flex text-gray-800">
-                    <div class="">
-                        <div class=" inline-block">
-                            <p class="">
-                                <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    viewBox="0 0 610.14 279.93" style="enable-background:new 0 0 610.14 279.93;"
-                                    xml:space="preserve" class=" fill-current h-8">
+            <div class="w-full flex text-gray-800">
+                <div class="">
+                    <div class=" inline-block">
+                        <p class="">
+                            <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 610.14 279.93"
+                                style="enable-background:new 0 0 610.14 279.93;" xml:space="preserve"
+                                class=" fill-current h-8">
+                                <g>
                                     <g>
                                         <g>
-                                            <g>
-                                                <path class=""
-                                                    d="M122.17,30.85c4.9,0,12.24,1.95,22.04,5.85c8.46,3.04,12.69,6.71,12.69,11.04c0,1.93-0.66,4.35-1.99,7.24
+                                            <path class=""
+                                                d="M122.17,30.85c4.9,0,12.24,1.95,22.04,5.85c8.46,3.04,12.69,6.71,12.69,11.04c0,1.93-0.66,4.35-1.99,7.24
                                             c-2.21,4.83-3.31,13.52-3.31,26.07c0,28.01-4.96,53.28-14.86,75.83c-8.49,21.86-21.24,41.67-38.22,59.43
                                             c-15.57,16.4-34.68,29.72-57.33,39.96c-19.81,8.2-32.55,12.3-38.21,12.3c-1.99,0-2.98-0.77-2.98-2.32c0-0.69,2.39-2.4,7.19-5.15
                                             c28.75-16.47,51.51-33.61,68.27-51.44c19.16-19.21,32.34-40.47,39.53-63.79c7.19-21.26,10.78-42.87,10.78-64.82
@@ -53,10 +53,10 @@
                                             c0,2.58-2.5,4.03-7.48,4.35c-11.64,3.22-29.38,4.83-53.22,4.83c-14.41,0-24.67-3.36-30.76-10.08
                                             c-9.98-11.2-20.23-24.42-30.76-39.66c-14.41-19.27-28.55-42.13-42.4-68.57c-7.76-15.24-13.58-25.32-17.46-30.25
                                             c-2.78-4.03-4.16-6.49-4.16-7.39c0.65-3.97,2.92-5.96,6.81-5.96C146.68,107.12,150.33,111.04,153.97,118.43z" />
-                                            </g>
-                                            <g>
-                                                <path class="st0"
-                                                    d="M440.04,199.83c5.97,3.27,8.96,6.23,8.96,8.88c0,2.34-4.13,3.51-12.37,3.51
+                                        </g>
+                                        <g>
+                                            <path class="st0"
+                                                d="M440.04,199.83c5.97,3.27,8.96,6.23,8.96,8.88c0,2.34-4.13,3.51-12.37,3.51
                                             c-11.51-0.29-23.92-0.44-37.21-0.44c-13.89,0-32.05,0.7-54.47,2.1c-16.07,0.7-33.24,2.71-51.49,6.04
                                             c-5.16,1.05-8.34,1.58-9.53,1.58c-2.68,0-6.7-1.17-12.05-3.49c-5.67-2.49-8.5-4.51-8.5-6.06c0-1.86,1.84-2.95,5.52-3.26
                                             c20.28-0.17,35.14-1.01,44.59-2.51c17.92-1.84,37.61-3.26,59.06-4.27c20.28-1.51,35.83-3.18,46.66-5.03
@@ -72,9 +72,9 @@
                                             C346.77,91.55,351.73,93.08,357.54,96.12z M404.42,160.26c7.38,2.04,12.91,4.28,16.6,6.71c3.25,2.85,4.88,6.71,4.88,11.6
                                             c0,5.64-2.32,8.45-6.96,8.45c-1.94,0-4.01-0.92-6.19-2.77c-4.13-3.32-9.96-10.33-17.49-21.04c-0.97-1.1-1.46-1.94-1.46-2.49
                                             c0.32-1.33,1.04-1.99,2.15-1.99C398.56,158.73,401.39,159.24,404.42,160.26z" />
-                                            </g>
-                                            <g>
-                                                <path class="st0" d="M470.18,107.25c2.62,1.74,3.94,4.43,3.94,8.07c-1.34,86.68-3.06,136.16-5.14,148.45
+                                        </g>
+                                        <g>
+                                            <path class="st0" d="M470.18,107.25c2.62,1.74,3.94,4.43,3.94,8.07c-1.34,86.68-3.06,136.16-5.14,148.45
                                             c-0.89,6.64-2.46,9.97-4.69,9.97c-1.92,0-3.85-1.76-5.77-5.26c-2.62-4.39-3.93-8.86-3.93-13.42c0-3.31,0.44-6.28,1.31-8.93
                                             c1.89-7.6,3.42-18.68,4.59-33.23c1.31-13.88,1.96-37.27,1.96-70.17c0-14.21-1.44-24.3-4.31-30.25c-1.08-2.15-1.62-3.72-1.62-4.71
                                             c0-1.91,1.31-2.87,3.94-2.87C464.32,104.91,467.55,105.69,470.18,107.25z M603.89,101.88c4.16,2.95,6.25,5.3,6.25,7.07
@@ -124,52 +124,109 @@
                                             c2.85-3.83,4.8-7.15,5.87-9.95C554.44,197.36,554.88,196.84,555.42,196.84z M585.01,254.25c1.37,0.28,2.29,0.42,2.75,0.42
                                             l6.46,25.26c-1.18,0-2.24-1.11-3.19-3.34c-2.13-5.65-4.84-11.55-8.14-17.71c-1.54-2.05-2.3-3.34-2.3-3.85
                                             c0-1.07,0.42-1.61,1.26-1.61C582.58,253.41,583.64,253.69,585.01,254.25z" />
-                                            </g>
                                         </g>
                                     </g>
-                                </svg>
-                            </p>
-                            {{-- <p class="text-lg">Tianyu Yuan Homestay</p> --}}
-                        </div>
+                                </g>
+                            </svg>
+                        </p>
+                        {{-- <p class="text-lg">Tianyu Yuan Homestay</p> --}}
                     </div>
-                    <div class=" flex-grow flex items-end pl-8">
-                        <div class="">
-                            <button type="button" class="text-xl">關於天玉園</button>
-                            <span class="mx-4 border-r h-full border-gray-800"></span>
-                            <button type="button" class="text-xl">職人咖啡</button>
-                            <span class="mx-4 border-r h-full border-gray-800"></span>
-                            <button type="button" class="text-xl">客房介紹</button>
-                            <span class="mx-4 border-r h-full border-gray-800"></span>
-                            <button type="button" class="text-xl">訂房須知</button>
-                        </div>
+                </div>
+                <div class=" flex-grow flex items-end pl-8">
+                    <div class="">
+                        <button type="button" class="text-xl">關於天玉園</button>
+                        <span class="mx-4 border-r h-full border-gray-800"></span>
+                        <button type="button" class="text-xl">職人咖啡</button>
+                        <span class="mx-4 border-r h-full border-gray-800"></span>
+                        <button type="button" class="text-xl">客房介紹</button>
+                        <span class="mx-4 border-r h-full border-gray-800"></span>
+                        <button type="button" class="text-xl">訂房須知</button>
                     </div>
-                    <div class=" flex items-end">
-                        <div class="">
-                            <span class="mr-2 ml-4 border-r h-full border-white"></span>
-                            <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i>
-                                訂房專線:(05)2627-233</button>
-                            <span class="mx-2 border-r h-full border-white"></span>
-                            <button type="button" class=" text-lg"><i class="fab fa-facebook-square"></i>
-                                Facebook</button>
-                        </div>
+                </div>
+                <div class=" flex items-end">
+                    <div class="">
+                        <span class="mr-2 ml-4 border-r h-full border-white"></span>
+                        <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i>
+                            訂房專線:(05)2627-233</button>
+                        <span class="mx-2 border-r h-full border-white"></span>
+                        <button type="button" class=" text-lg"><i class="fab fa-facebook-square"></i>
+                            Facebook</button>
                     </div>
                 </div>
             </div>
         </div>
-        {{-- nav --}}
-        <div class="w-screen h-screen">
-            <div class="container h-4/5 relative">
-                <div class="h-full w-full absolute flex justify-center items-center px-20">
-                    <div class="h-full w-full border border-yellow-900 -mr-12 -mb-12"></div>
-                </div>
-                <div class="h-full w-full absolute flex justify-center items-center px-20">
-                    <div class="h-full w-full bg-cover bg-center"  style="background-image: url('/img/header.jpg')"></div>
+    </div>
+    {{-- nav --}}
+    <div class="w-screen h-screen pt-20">
+        <div class="container h-4/5 relative">
+            <div class="h-full w-full absolute flex justify-center items-center px-20">
+                <div class="h-full w-full border border-yellow-900 -mr-12 -mb-12"></div>
+            </div>
+            <div class="h-full w-full absolute flex justify-center items-center px-20">
+                <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/bg3.jpg')">
                 </div>
             </div>
         </div>
-        <div class=" h-screen -mt-20">
-            <p class=" text-xl text-center text-yellow-900 font-semibold py-4">-關於天玉園-</p>
+    </div>
+    <div class=" h-screen -mt-20 relative">
+        <div class=" grid grid-cols-3 grid-rows-2 gap-2 px-4">
+            <div class="">
+                <img src="/img/bg2.jpg" alt="" class="">
+            </div>
+            <div class="col-span-2  bg-opacity-50 bg-white p-4">
+                <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
+                    關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
+                </p>
+                <p class="">
+                    <span class="text-2xl text-green-500">因</span> 緣際會發現「梅山」是農特產與人情味兼具的純樸山城
+                </p>
+                <p class="">
+                    地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷
+                </p>
+                <p class="mt-4">
+                    在2014年夫妻倆毅然決然將人生的下半場全心全力投入此地
+                    以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神
+                    打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」
+                </p>
+                <p class="">
+
+                </p>
+            </div>
+            <div class=" bg-cover bg-bottom group" style="background-image: url('/img/about/homestay.jpg">
+                <button type="button" class="w-full h-full block">
+                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                        <div class=" text-white text-xl text-center">
+                            <p class="text-2xl mb-4">好客民宿</p>
+                            <p class="">2021年</p>
+                            <p class="">交通部觀光局評選為「好客民宿」</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class=" bg-cover bg-bottom" style="background-image: url('/img/coffee/coffee-bg.jpg')">
+                <button type="button" class="w-full h-full block">
+                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                        <div class=" text-white text-xl text-center">
+                            <p class="text-2xl mb-4">天玉園優豆品牌</p>
+                            <p class="">英國City&Guilds</p>
+                            <p class="">國際咖啡師/咖啡烘焙師雙認證</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class=" bg-cover bg-bottom" style="background-image: url('/img/bg3.jpg')">
+                <button type="button" class="w-full h-full block">
+                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                        <div class=" text-white text-xl text-center">
+                            <p class="text-2xl mb-4">慢活輕旅行</p>
+                            <p class="">800多坪的綠化園區與休憩涼亭</p>
+                            <p class="">觀瀑、品花、賞魚</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
         </div>
+    </div>
 
     </div>
 
