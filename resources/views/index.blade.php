@@ -23,7 +23,8 @@
         {{--loading page--}}
         {{--loading page--}}
         {{-- nav --}}
-        <div class=" fixed top-0 w-full py-2 px-4 bg-gray-100 bg-opacity-80 hidden lg:block" id="nav" style="z-index: 999;>
+        <div class=" fixed top-0 w-full py-2 px-4 hidden lg:block" id="nav" style="z-index: 999;background-color: #e8f4d9d0">
+            {{-- <div class=" fixed top-0 w-full py-2 px-4 bg-gray-100 bg-opacity-80 hidden lg:block" id="nav" style="z-index: 999;"> --}}
             <div class=" container m-auto">
             <div class="w-full flex text-gray-800">
                 <div class="">
@@ -145,10 +146,10 @@
                 </div>
                 <div class=" flex items-end">
                     <div class="">
-                        <span class="mr-2 ml-4 border-r h-full border-white"></span>
+                        <span class="mr-2 ml-4 border-r h-full border-gray-800"></span>
                         <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i>
                             訂房專線:(05)2627-233</button>
-                        <span class="mx-2 border-r h-full border-white"></span>
+                        <span class="mx-2 border-r h-full border-gray-800"></span>
                         <button type="button" class=" text-lg"><i class="fab fa-facebook-square"></i>
                             Facebook</button>
                     </div>
@@ -158,7 +159,7 @@
     </div>
     {{-- nav --}}
     <div class="w-screen h-screen pt-20" id="header">
-        <div class="container h-full  lg:h-4/5 relative">
+        <div class="container m-auto h-full  lg:h-4/5 relative">
             <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
                 <div class="h-full w-full border border-yellow-900 lg:-mr-12 lg:-mb-12 -mr-4 -mb-4"></div>
             </div>
@@ -168,12 +169,12 @@
             </div>
         </div>
     </div>
-    <div class=" h-screen mt-10 lg:-mt-20 relative">
-        <div class="flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-2 px-4">
+    <div class="  mt-10 lg:-mt-20 relative">
+        <div class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
             <div class="lg:col-span-1 w-full lg:w-auto">
                 <img src="/img/bg2.jpg" alt="" class="">
             </div>
-            <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-50 bg-white p-4 mb-2 lg:mb-0">
+            <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-50 bg-white p-8 mb-2 lg:mb-0">
                 <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
                     關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
                 </p>
@@ -226,6 +227,96 @@
                 </button>
             </div>
         </div>
+    </div>
+    <div class="mt-20 ">
+        <div class="container m-auto relative">
+            <div class="bg-white absolute -top-36 rounded -left-20" style=" height: 70vh;width: 50vw;z-index:-10"></div>
+            <div class="w-full flex">
+                <div class="w-2/3 border border-yellow-900 h-96 relative">
+                    <div class="w-full h-full absolute -bottom-4 -right-4">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.562534396702!2d120.55421369667815!3d23.572371093942284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec0c13e1cc6f7%3A0x7a5cc5c30dca869!2z5aSp546J5ZyS5pmv6KeA5rih5YGH5LyR6ZaS5rCR5a6_!5e0!3m2!1szh-TW!2stw!4v1627009660607!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-full shadow"></iframe>
+                    </div>
+                </div>
+                <div class="w-1/3">
+                    <div class="py-8 pl-8 text-gray-600">
+                        <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                            交通資訊 <span class="text-lg text-gray-500 font-normal">-旅行足跡</span>
+                        </p>
+                        <p class="text-xl font-semibold">
+                            <span class="text-yellow-600">壹、</span>大眾運輸:
+                        </p>
+                        <div class="pl-4">
+                            <p class="text-lg mt-2  font-semibold">
+                                高鐵雲林站BRT(斗六後火車站)->台西客運(梅山果菜市場)<br>->步行約15分鐘<br>(共約120分鐘)
+                            </p>
+                            <p class="text-lg mt-2  font-semibold">
+                                嘉義火車站->嘉義縣公車 7323(南梅山站)->步行約6分鐘 (共約70分鐘)
+                            </p>
+                        </div>
+
+                        <div class="h-2"></div>
+                        <p class="text-xl font-semibold">
+                            <span class="text-yellow-600">貳、</span>自行前往:
+                        </p>
+                        <p class="text-lg mt-2  font-semibold pl-4">
+                            國道3號->梅山出口下交流道(往梅山方向)->縣道162->台三線270處
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="h-20"></div>
+    <div class="h-screen">
+        <div class="container m-auto">
+            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                <span class="border-r border-gray-400 mr-2"></span>
+                職人咖啡<span class="text-lg text-gray-500 font-normal">-City&Guilds 國際咖啡師/咖啡烘焙師雙認證</span>
+            </p>
+            <div class="h-20"></div>
+            <div class="relative">
+                <div class="w-1/3 h-96 border border-yellow-900 absolute -top-16 left-16"></div>
+                <div class=" absolute w-1/3 -top-10 left-10">
+                    <img src="/img/coffee/coffee-6.jpg" alt="" class="w-full">
+                    <div class="w-full h-full bg-gray-600 absolute top-0 bg-opacity-30 backdrop-filter backdrop-grayscale"></div>
+                </div>
+
+                <div class="flex">
+                    <div class=" flex-grow"></div>
+                    <div class=" w-2/3 bg-white relative rounded bg-opacity-90">
+                        <div class="w-full flex h-full">
+                            <div class="flex-grow h-full p-8 text-gray-600">
+                                <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                                    咖啡總監 <span class="text-lg text-gray-500 font-normal">-Jerzenchen</span>
+                                </p>
+                                <p class="text-lg mt-2  font-semibold pl-4">
+                                    2018年6月獲得“國際咖啡師”
+                                </p>
+                                <p class="text-lg mt-2  font-semibold pl-4">
+                                    英國City&Guilds“國際咖啡烘豆師”
+                                </p>
+                                <p class=" mt-2  pl-4">
+                                    <span class="text-2xl text-green-500">堅</span> 持手工挑揀生豆以維持最高品質，細心烘焙為求展現各式單品咖啡豆最佳風味與餘韻
+                                </p>
+
+                                <div class="h-8"></div>
+                                <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                                    單品莊園咖啡 <span class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
+                                </p>
+                                <p class="text-lg mt-2  font-semibold pl-4">
+                                    巴西、坦尚尼亞圓豆、瓜地馬拉經典焦糖等
+                                </p>
+                                <div class="grid grid-cols-2 gap-2 p-8">
+                                    <img src="/img/coffee/coffee-3.jpg" alt="" class="">
+                                    <img src="/img/coffee/coffee-5.jpg" alt="" class="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     </div>
