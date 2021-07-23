@@ -19,7 +19,7 @@
 </head>
 
 <body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/bg5.jpg')">
-    <div class=" bg-white bg-opacity-70">
+    <div class=" bg-white bg-opacity-70" style="z-index: -800">
         {{--loading page--}}
         {{--loading page--}}
         {{-- nav --}}
@@ -174,7 +174,7 @@
             <div class="lg:col-span-1 w-full lg:w-auto">
                 <img src="/img/bg2.jpg" alt="" class="">
             </div>
-            <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-50 bg-white p-8 mb-2 lg:mb-0">
+            <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
                 <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
                     關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
                 </p>
@@ -267,7 +267,7 @@
         </div>
     </div>
     <div class="h-20"></div>
-    <div class="h-screen">
+    <div class="">
         <div class="container m-auto">
             <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
                 <span class="border-r border-gray-400 mr-2"></span>
@@ -315,6 +315,68 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+    </div>
+    <div class="h-10"></div>
+    <div class="h-screen">
+        <div class="container m-auto h-full relative">
+            <div class="py-8 pl-8 text-gray-600 relative" style="z-index: 10">
+                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                    <span class="border-r border-gray-400 mr-2"></span>
+                    客房介紹<span class="text-lg text-gray-500 font-normal">-愜意休憩</span>
+                </p>
+                <div class="h-10"></div>
+                <div class="w-full relative">
+                    <div class="w-full grid grid-cols-4 gap-4">
+                        <div class="p-3 h-96 bg-white rounded shadow">
+                            <div class="">
+                                <img src="/img/rooms/room-2-1.jpg" alt="" class="">
+                            </div>
+                            <div class="h-8"></div>
+                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                <span class="border-r border-gray-400 mr-2"></span>
+                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                            </p>
+
+                        </div>
+                        <div class="p-3 h-96 bg-white rounded shadow">
+                            <div class="">
+                                <img src="/img/rooms/room-3-1.jpg" alt="" class="">
+                            </div>
+                            <div class="h-8"></div>
+                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                <span class="border-r border-gray-400 mr-2"></span>
+                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                            </p>
+
+                        </div>
+                        <div class="p-3 h-96 bg-white rounded shadow">
+                            <div class="">
+                                <img src="/img/rooms/room-4-1.jpg" alt="" class="">
+                            </div>
+                            <div class="h-8"></div>
+                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                <span class="border-r border-gray-400 mr-2"></span>
+                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                            </p>
+
+                        </div>
+                        <div class="p-3 h-96 bg-white rounded shadow">
+                            <div class="">
+                                <img src="/img/rooms/room-6-1.jpg" alt="" class="">
+                            </div>
+                            <div class="h-8"></div>
+                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                <span class="border-r border-gray-400 mr-2"></span>
+                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-3/5 w-3/4 -top-80 -left-20 bg-gray-400 absolute" style="z-index: -10"></div>
         </div>
 
     </div>
