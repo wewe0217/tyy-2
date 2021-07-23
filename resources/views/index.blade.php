@@ -23,22 +23,23 @@
         {{--loading page--}}
         {{--loading page--}}
         {{-- nav --}}
-        <div class=" fixed top-0 w-full py-2 px-4 hidden lg:block" id="nav" style="z-index: 999;background-color: #e8f4d9d0">
+        <div class=" fixed top-0 w-full py-2 px-4 hidden lg:block" id="nav"
+            style="z-index: 999;background-color: #e8f4d9d0">
             {{-- <div class=" fixed top-0 w-full py-2 px-4 bg-gray-100 bg-opacity-80 hidden lg:block" id="nav" style="z-index: 999;"> --}}
             <div class=" container m-auto">
-            <div class="w-full flex text-gray-800">
-                <div class="">
-                    <div class=" inline-block">
-                        <p class="">
-                            <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 610.14 279.93"
-                                style="enable-background:new 0 0 610.14 279.93;" xml:space="preserve"
-                                class=" fill-current h-8">
-                                <g>
+                <div class="w-full flex text-gray-800">
+                    <div class="">
+                        <div class=" inline-block">
+                            <p class="">
+                                <svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 610.14 279.93" style="enable-background:new 0 0 610.14 279.93;"
+                                    xml:space="preserve" class=" fill-current h-8">
                                     <g>
                                         <g>
-                                            <path class=""
-                                                d="M122.17,30.85c4.9,0,12.24,1.95,22.04,5.85c8.46,3.04,12.69,6.71,12.69,11.04c0,1.93-0.66,4.35-1.99,7.24
+                                            <g>
+                                                <path class=""
+                                                    d="M122.17,30.85c4.9,0,12.24,1.95,22.04,5.85c8.46,3.04,12.69,6.71,12.69,11.04c0,1.93-0.66,4.35-1.99,7.24
                                             c-2.21,4.83-3.31,13.52-3.31,26.07c0,28.01-4.96,53.28-14.86,75.83c-8.49,21.86-21.24,41.67-38.22,59.43
                                             c-15.57,16.4-34.68,29.72-57.33,39.96c-19.81,8.2-32.55,12.3-38.21,12.3c-1.99,0-2.98-0.77-2.98-2.32c0-0.69,2.39-2.4,7.19-5.15
                                             c28.75-16.47,51.51-33.61,68.27-51.44c19.16-19.21,32.34-40.47,39.53-63.79c7.19-21.26,10.78-42.87,10.78-64.82
@@ -54,10 +55,10 @@
                                             c0,2.58-2.5,4.03-7.48,4.35c-11.64,3.22-29.38,4.83-53.22,4.83c-14.41,0-24.67-3.36-30.76-10.08
                                             c-9.98-11.2-20.23-24.42-30.76-39.66c-14.41-19.27-28.55-42.13-42.4-68.57c-7.76-15.24-13.58-25.32-17.46-30.25
                                             c-2.78-4.03-4.16-6.49-4.16-7.39c0.65-3.97,2.92-5.96,6.81-5.96C146.68,107.12,150.33,111.04,153.97,118.43z" />
-                                        </g>
-                                        <g>
-                                            <path class="st0"
-                                                d="M440.04,199.83c5.97,3.27,8.96,6.23,8.96,8.88c0,2.34-4.13,3.51-12.37,3.51
+                                            </g>
+                                            <g>
+                                                <path class="st0"
+                                                    d="M440.04,199.83c5.97,3.27,8.96,6.23,8.96,8.88c0,2.34-4.13,3.51-12.37,3.51
                                             c-11.51-0.29-23.92-0.44-37.21-0.44c-13.89,0-32.05,0.7-54.47,2.1c-16.07,0.7-33.24,2.71-51.49,6.04
                                             c-5.16,1.05-8.34,1.58-9.53,1.58c-2.68,0-6.7-1.17-12.05-3.49c-5.67-2.49-8.5-4.51-8.5-6.06c0-1.86,1.84-2.95,5.52-3.26
                                             c20.28-0.17,35.14-1.01,44.59-2.51c17.92-1.84,37.61-3.26,59.06-4.27c20.28-1.51,35.83-3.18,46.66-5.03
@@ -73,9 +74,9 @@
                                             C346.77,91.55,351.73,93.08,357.54,96.12z M404.42,160.26c7.38,2.04,12.91,4.28,16.6,6.71c3.25,2.85,4.88,6.71,4.88,11.6
                                             c0,5.64-2.32,8.45-6.96,8.45c-1.94,0-4.01-0.92-6.19-2.77c-4.13-3.32-9.96-10.33-17.49-21.04c-0.97-1.1-1.46-1.94-1.46-2.49
                                             c0.32-1.33,1.04-1.99,2.15-1.99C398.56,158.73,401.39,159.24,404.42,160.26z" />
-                                        </g>
-                                        <g>
-                                            <path class="st0" d="M470.18,107.25c2.62,1.74,3.94,4.43,3.94,8.07c-1.34,86.68-3.06,136.16-5.14,148.45
+                                            </g>
+                                            <g>
+                                                <path class="st0" d="M470.18,107.25c2.62,1.74,3.94,4.43,3.94,8.07c-1.34,86.68-3.06,136.16-5.14,148.45
                                             c-0.89,6.64-2.46,9.97-4.69,9.97c-1.92,0-3.85-1.76-5.77-5.26c-2.62-4.39-3.93-8.86-3.93-13.42c0-3.31,0.44-6.28,1.31-8.93
                                             c1.89-7.6,3.42-18.68,4.59-33.23c1.31-13.88,1.96-37.27,1.96-70.17c0-14.21-1.44-24.3-4.31-30.25c-1.08-2.15-1.62-3.72-1.62-4.71
                                             c0-1.91,1.31-2.87,3.94-2.87C464.32,104.91,467.55,105.69,470.18,107.25z M603.89,101.88c4.16,2.95,6.25,5.3,6.25,7.07
@@ -125,264 +126,422 @@
                                             c2.85-3.83,4.8-7.15,5.87-9.95C554.44,197.36,554.88,196.84,555.42,196.84z M585.01,254.25c1.37,0.28,2.29,0.42,2.75,0.42
                                             l6.46,25.26c-1.18,0-2.24-1.11-3.19-3.34c-2.13-5.65-4.84-11.55-8.14-17.71c-1.54-2.05-2.3-3.34-2.3-3.85
                                             c0-1.07,0.42-1.61,1.26-1.61C582.58,253.41,583.64,253.69,585.01,254.25z" />
+                                            </g>
                                         </g>
                                     </g>
-                                </g>
-                            </svg>
-                        </p>
-                        {{-- <p class="text-lg">Tianyu Yuan Homestay</p> --}}
-                    </div>
-                </div>
-                <div class=" flex-grow flex items-end pl-8">
-                    <div class="">
-                        <button type="button" class="text-xl">關於天玉園</button>
-                        <span class="mx-4 border-r h-full border-gray-800"></span>
-                        <button type="button" class="text-xl">職人咖啡</button>
-                        <span class="mx-4 border-r h-full border-gray-800"></span>
-                        <button type="button" class="text-xl">客房介紹</button>
-                        <span class="mx-4 border-r h-full border-gray-800"></span>
-                        <button type="button" class="text-xl">訂房須知</button>
-                    </div>
-                </div>
-                <div class=" flex items-end">
-                    <div class="">
-                        <span class="mr-2 ml-4 border-r h-full border-gray-800"></span>
-                        <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i>
-                            訂房專線:(05)2627-233</button>
-                        <span class="mx-2 border-r h-full border-gray-800"></span>
-                        <button type="button" class=" text-lg"><i class="fab fa-facebook-square"></i>
-                            Facebook</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{-- nav --}}
-    <div class="w-screen h-screen pt-20" id="header">
-        <div class="container m-auto h-full  lg:h-4/5 relative">
-            <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
-                <div class="h-full w-full border border-yellow-900 lg:-mr-12 lg:-mb-12 -mr-4 -mb-4"></div>
-            </div>
-            <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
-                <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/bg3.jpg')">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="  mt-10 lg:-mt-20 relative">
-        <div class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
-            <div class="lg:col-span-1 w-full lg:w-auto">
-                <img src="/img/bg2.jpg" alt="" class="">
-            </div>
-            <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
-                <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
-                    關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
-                </p>
-                <p class="">
-                    <span class="text-2xl text-green-500">因</span> 緣際會發現「梅山」是農特產與人情味兼具的純樸山城
-                </p>
-                <p class="">
-                    地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷
-                </p>
-                <p class="mt-4">
-                    2014年夫妻倆毅然決然將人生的下半場全心全力投入此地
-                    以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神
-                    打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」
-                </p>
-                <p class="">
-
-                </p>
-            </div>
-            <div class="w-1/2 lg:w-auto h-28 lg:h-auto pr-1 lg:pr-0" >
-                <button type="button" class="w-full h-full block bg-cover bg-bottom" style="background-image: url('/img/about/homestay.jpg">
-                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
-                        <div class=" text-white text-xl text-center">
-                            <p class="text-2xl mb-4">好客民宿</p>
-                            <p class="">2021年</p>
-                            <p class="">交通部觀光局評選為「好客民宿」</p>
-                        </div>
-                    </div>
-                </button>
-            </div>
-            <div class="w-1/2 lg:w-auto  h-28 lg:h-auto pl-1 lg:pl-0" >
-                <button type="button" class="w-full h-full block bg-cover bg-bottom" style="background-image: url('/img/coffee/coffee-bg.jpg')">
-                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
-                        <div class=" text-white text-xl text-center">
-                            <p class="text-2xl mb-4">天玉園優豆品牌</p>
-                            <p class="">英國City&Guilds</p>
-                            <p class="">國際咖啡師/咖啡烘焙師雙認證</p>
-                        </div>
-                    </div>
-                </button>
-            </div>
-            <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0" style="background-image: url('/img/bg3.jpg')">
-                <button type="button" class="w-full h-full block">
-                    <div class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
-                        <div class=" text-white text-xl text-center">
-                            <p class="text-2xl mb-4">慢活輕旅行</p>
-                            <p class="">800多坪的綠化園區與休憩涼亭</p>
-                            <p class="">觀瀑、品花、賞魚</p>
-                        </div>
-                    </div>
-                </button>
-            </div>
-        </div>
-    </div>
-    <div class="mt-20 ">
-        <div class="container m-auto relative">
-            <div class="bg-white absolute -top-36 rounded -left-20" style=" height: 70vh;width: 50vw;z-index:-10"></div>
-            <div class="w-full flex">
-                <div class="w-2/3 border border-yellow-900 h-96 relative">
-                    <div class="w-full h-full absolute -bottom-4 -right-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.562534396702!2d120.55421369667815!3d23.572371093942284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec0c13e1cc6f7%3A0x7a5cc5c30dca869!2z5aSp546J5ZyS5pmv6KeA5rih5YGH5LyR6ZaS5rCR5a6_!5e0!3m2!1szh-TW!2stw!4v1627009660607!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-full shadow"></iframe>
-                    </div>
-                </div>
-                <div class="w-1/3">
-                    <div class="py-8 pl-8 text-gray-600">
-                        <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
-                            交通資訊 <span class="text-lg text-gray-500 font-normal">-旅行足跡</span>
-                        </p>
-                        <p class="text-xl font-semibold">
-                            <span class="text-yellow-600">壹、</span>大眾運輸:
-                        </p>
-                        <div class="pl-4">
-                            <p class="text-lg mt-2  font-semibold">
-                                高鐵雲林站BRT(斗六後火車站)->台西客運(梅山果菜市場)<br>->步行約15分鐘<br>(共約120分鐘)
+                                </svg>
                             </p>
-                            <p class="text-lg mt-2  font-semibold">
-                                嘉義火車站->嘉義縣公車 7323(南梅山站)->步行約6分鐘 (共約70分鐘)
-                            </p>
+                            {{-- <p class="text-lg">Tianyu Yuan Homestay</p> --}}
                         </div>
-
-                        <div class="h-2"></div>
-                        <p class="text-xl font-semibold">
-                            <span class="text-yellow-600">貳、</span>自行前往:
-                        </p>
-                        <p class="text-lg mt-2  font-semibold pl-4">
-                            國道3號->梅山出口下交流道(往梅山方向)->縣道162->台三線270處
-                        </p>
+                    </div>
+                    <div class=" flex-grow flex items-end pl-8">
+                        <div class="">
+                            <button type="button" class="text-xl">關於天玉園</button>
+                            <span class="mx-4 border-r h-full border-gray-800"></span>
+                            <button type="button" class="text-xl">職人咖啡</button>
+                            <span class="mx-4 border-r h-full border-gray-800"></span>
+                            <button type="button" class="text-xl">客房介紹</button>
+                            <span class="mx-4 border-r h-full border-gray-800"></span>
+                            <button type="button" class="text-xl">訂房須知</button>
+                        </div>
+                    </div>
+                    <div class=" flex items-end">
+                        <div class="">
+                            <span class="mr-2 ml-4 border-r h-full border-gray-800"></span>
+                            <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i>
+                                訂房專線:(05)2627-233</button>
+                            <span class="mx-2 border-r h-full border-gray-800"></span>
+                            <button type="button" class=" text-lg"><i class="fab fa-facebook-square"></i>
+                                Facebook</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="h-20"></div>
-    <div class="">
-        <div class="container m-auto">
-            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
-                <span class="border-r border-gray-400 mr-2"></span>
-                職人咖啡<span class="text-lg text-gray-500 font-normal">-City&Guilds 國際咖啡師/咖啡烘焙師雙認證</span>
-            </p>
-            <div class="h-20"></div>
-            <div class="relative">
-                <div class="w-1/3 h-96 border border-yellow-900 absolute -top-16 left-16"></div>
-                <div class=" absolute w-1/3 -top-10 left-10">
-                    <img src="/img/coffee/coffee-6.jpg" alt="" class="w-full">
-                    <div class="w-full h-full bg-gray-600 absolute top-0 bg-opacity-30 backdrop-filter backdrop-grayscale"></div>
+        {{-- nav --}}
+        <div class="w-screen h-screen pt-20" id="header">
+            <div class="container m-auto h-full  lg:h-4/5 relative">
+                <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
+                    <div class="h-full w-full border border-yellow-900 lg:-mr-12 lg:-mb-12 -mr-4 -mb-4"></div>
                 </div>
+                <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
+                    <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/bg3.jpg')">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="  mt-10 lg:-mt-20 relative">
+            <div
+                class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
+                <div class="lg:col-span-1 w-full lg:w-auto">
+                    <img src="/img/bg2.jpg" alt="" class="">
+                </div>
+                <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
+                    <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
+                        關於天玉園 <span class="text-lg text-gray-500 font-normal">-地緣故事</span>
+                    </p>
+                    <p class="">
+                        <span class="text-2xl text-green-500">因</span> 緣際會發現「梅山」是農特產與人情味兼具的純樸山城
+                    </p>
+                    <p class="">
+                        地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷
+                    </p>
+                    <p class="mt-4">
+                        2014年夫妻倆毅然決然將人生的下半場全心全力投入此地
+                        以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神
+                        打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」
+                    </p>
+                    <p class="">
 
-                <div class="flex">
-                    <div class=" flex-grow"></div>
-                    <div class=" w-2/3 bg-white relative rounded bg-opacity-90">
-                        <div class="w-full flex h-full">
-                            <div class="flex-grow h-full p-8 text-gray-600">
-                                <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
-                                    咖啡總監 <span class="text-lg text-gray-500 font-normal">-Jerzenchen</span>
+                    </p>
+                </div>
+                <div class="w-1/2 lg:w-auto h-28 lg:h-auto pr-1 lg:pr-0">
+                    <button type="button" class="w-full h-full block bg-cover bg-bottom"
+                        style="background-image: url('/img/about/homestay.jpg">
+                        <div
+                            class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                            <div class=" text-white text-xl text-center">
+                                <p class="text-2xl mb-4">好客民宿</p>
+                                <p class="">2021年</p>
+                                <p class="">交通部觀光局評選為「好客民宿」</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="w-1/2 lg:w-auto  h-28 lg:h-auto pl-1 lg:pl-0">
+                    <button type="button" class="w-full h-full block bg-cover bg-bottom"
+                        style="background-image: url('/img/coffee/coffee-bg.jpg')">
+                        <div
+                            class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                            <div class=" text-white text-xl text-center">
+                                <p class="text-2xl mb-4">天玉園優豆品牌</p>
+                                <p class="">英國City&Guilds</p>
+                                <p class="">國際咖啡師/咖啡烘焙師雙認證</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0"
+                    style="background-image: url('/img/bg3.jpg')">
+                    <button type="button" class="w-full h-full block">
+                        <div
+                            class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
+                            <div class=" text-white text-xl text-center">
+                                <p class="text-2xl mb-4">慢活輕旅行</p>
+                                <p class="">800多坪的綠化園區與休憩涼亭</p>
+                                <p class="">觀瀑、品花、賞魚</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-20 ">
+            <div class="container m-auto relative">
+                <div class="bg-white absolute -top-36 rounded -left-20 w-3/5" style=" height: 70vh;z-index:-10"></div>
+                <div class="w-full flex">
+                    <div class="w-2/3 border border-yellow-900 h-96 relative">
+                        <div class="w-full h-full absolute -bottom-4 -right-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.562534396702!2d120.55421369667815!3d23.572371093942284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec0c13e1cc6f7%3A0x7a5cc5c30dca869!2z5aSp546J5ZyS5pmv6KeA5rih5YGH5LyR6ZaS5rCR5a6_!5e0!3m2!1szh-TW!2stw!4v1627009660607!5m2!1szh-TW!2stw"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                class="w-full h-full shadow"></iframe>
+                        </div>
+                    </div>
+                    <div class="w-1/3">
+                        <div class="py-8 pl-8 text-gray-600">
+                            <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                                交通資訊 <span class="text-lg text-gray-500 font-normal">-旅行足跡</span>
+                            </p>
+                            <p class="text-xl font-semibold">
+                                <span class="text-yellow-600">壹、</span>大眾運輸:
+                            </p>
+                            <div class="pl-4">
+                                <p class="text-lg mt-2  font-semibold">
+                                    高鐵雲林站BRT(斗六後火車站)->台西客運(梅山果菜市場)<br>->步行約15分鐘<br>(共約120分鐘)
                                 </p>
-                                <p class="text-lg mt-2  font-semibold pl-4">
-                                    2018年6月獲得“國際咖啡師”
+                                <p class="text-lg mt-2  font-semibold">
+                                    嘉義火車站->嘉義縣公車 7323(南梅山站)->步行約6分鐘 (共約70分鐘)
                                 </p>
-                                <p class="text-lg mt-2  font-semibold pl-4">
-                                    英國City&Guilds“國際咖啡烘豆師”
-                                </p>
-                                <p class=" mt-2  pl-4">
-                                    <span class="text-2xl text-green-500">堅</span> 持手工挑揀生豆以維持最高品質，細心烘焙為求展現各式單品咖啡豆最佳風味與餘韻
-                                </p>
+                            </div>
 
-                                <div class="h-8"></div>
-                                <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
-                                    單品莊園咖啡 <span class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
-                                </p>
-                                <p class="text-lg mt-2  font-semibold pl-4">
-                                    巴西、坦尚尼亞圓豆、瓜地馬拉經典焦糖等
-                                </p>
-                                <div class="grid grid-cols-2 gap-2 p-8">
-                                    <img src="/img/coffee/coffee-3.jpg" alt="" class="">
-                                    <img src="/img/coffee/coffee-5.jpg" alt="" class="">
+                            <div class="h-2"></div>
+                            <p class="text-xl font-semibold">
+                                <span class="text-yellow-600">貳、</span>自行前往:
+                            </p>
+                            <p class="text-lg mt-2  font-semibold pl-4">
+                                國道3號->梅山出口下交流道(往梅山方向)->縣道162->台三線270處
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-20"></div>
+        <div class="">
+            <div class="container m-auto">
+                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                    <span class="border-r border-gray-400 mr-2"></span>
+                    職人咖啡<span class="text-lg text-gray-500 font-normal">-City&Guilds 國際咖啡師/咖啡烘焙師雙認證</span>
+                </p>
+                <div class="h-20"></div>
+                <div class="relative">
+                    <div class="w-1/3 h-96 border border-yellow-900 absolute -top-16 left-16"></div>
+                    <div class=" absolute w-1/3 -top-10 left-10">
+                        <img src="/img/coffee/coffee-6.jpg" alt="" class="w-full">
+                        <div
+                            class="w-full h-full bg-gray-600 absolute top-0 bg-opacity-30 backdrop-filter backdrop-grayscale">
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class=" flex-grow"></div>
+                        <div class=" w-2/3 bg-white relative rounded bg-opacity-90">
+                            <div class="w-full flex h-full">
+                                <div class="flex-grow h-full p-8 text-gray-600">
+                                    <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                                        咖啡總監 <span class="text-lg text-gray-500 font-normal">-Jerzenchen</span>
+                                    </p>
+                                    <p class="text-lg mt-2  font-semibold pl-4">
+                                        2018年6月獲得“國際咖啡師”
+                                    </p>
+                                    <p class="text-lg mt-2  font-semibold pl-4">
+                                        英國City&Guilds“國際咖啡烘豆師”
+                                    </p>
+                                    <p class=" mt-2  pl-4">
+                                        <span class="text-2xl text-green-500">堅</span>
+                                        持手工挑揀生豆以維持最高品質，細心烘焙為求展現各式單品咖啡豆最佳風味與餘韻
+                                    </p>
+
+                                    <div class="h-8"></div>
+                                    <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                                        單品莊園咖啡 <span class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
+                                    </p>
+                                    <p class="text-lg mt-2  font-semibold pl-4">
+                                        巴西、坦尚尼亞圓豆、瓜地馬拉經典焦糖等
+                                    </p>
+                                    <div class="grid grid-cols-2 gap-2 p-8">
+                                        <img src="/img/coffee/coffee-3.jpg" alt="" class="">
+                                        <img src="/img/coffee/coffee-5.jpg" alt="" class="">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
+        <div class="h-10"></div>
+        <div class="pb-20">
+            <div class="container m-auto h-full relative">
+                <div class="py-8 px-8 text-gray-600 relative" style="z-index: 10">
+                    <p class=" text-xl text-gray-600 font-semibold  mb-8 text-center">
+                        <span class="border-r border-gray-400 mr-2"></span>
+                        客房介紹<span class="text-lg text-gray-500 font-normal">-愜意休憩</span>
+                    </p>
+                    <div class="w-full relative">
+                        <div class="w-full grid grid-cols-4 gap-4">
+                            <div class="p-3  bg-white rounded shadow">
+                                <div class="relative">
+                                    <img src="/img/rooms/room-2-1.jpg" alt="" class="">
+                                    <button type="button" class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                        <div class="border border-white px-4 py-1 text-white rounded">查看照片</div>
+                                    </button>
+                                </div>
+                                <div class="h-8"></div>
+                                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                    <span class="border-r border-gray-400 mr-2"></span>
+                                    蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                                </p>
+                                <div class="flex justify-center gap-2">
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-bed fa-2x"></i> <i class="fas fa-plus"></i></p>
+                                        <p class="">加大床</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-bath fa-2x"></i></p>
+                                        <p class="">按摩浴缸</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-tree fa-2x"></i></p>
+                                        <p class="">景觀</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class="">附早餐</p>
+                                    </div>
+                                </div>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
 
-    </div>
-    <div class="h-10"></div>
-    <div class="h-screen">
-        <div class="container m-auto h-full relative">
-            <div class="py-8 pl-8 text-gray-600 relative" style="z-index: 10">
-                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
-                    <span class="border-r border-gray-400 mr-2"></span>
-                    客房介紹<span class="text-lg text-gray-500 font-normal">-愜意休憩</span>
-                </p>
-                <div class="h-10"></div>
-                <div class="w-full relative">
-                    <div class="w-full grid grid-cols-4 gap-4">
-                        <div class="p-3 h-96 bg-white rounded shadow">
-                            <div class="">
-                                <img src="/img/rooms/room-2-1.jpg" alt="" class="">
                             </div>
-                            <div class="h-8"></div>
-                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
-                                <span class="border-r border-gray-400 mr-2"></span>
-                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
-                            </p>
-
+                            <div class="p-3  bg-white rounded shadow">
+                                <div class="relative">
+                                    <img src="/img/rooms/room-3-1.jpg" alt="" class="">
+                                    <button type="button" class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                        <div class="border border-white px-4 py-1 text-white rounded">查看照片</div>
+                                    </button>
+                                </div>
+                                <div class="h-8"></div>
+                                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                    <span class="border-r border-gray-400 mr-2"></span>
+                                    標準型<span class="text-lg text-gray-500 font-normal">-三人套房</span>
+                                </p>
+                                <div class="flex justify-center gap-2">
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-sun fa-2x"></i></p>
+                                        <p class="">落地窗</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-umbrella-beach fa-2x"></i></p>
+                                        <p class="">後陽台</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class="">附早餐</p>
+                                    </div>
+                                </div>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                            </div>
+                            <div class="p-3 bg-white rounded shadow">
+                                <div class=" relative">
+                                    <img src="/img/rooms/room-4-1.jpg" alt="" class="">
+                                    <button type="button" class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                        <div class="border border-white px-4 py-1 text-white rounded">查看照片</div>
+                                    </button>
+                                </div>
+                                <div class="h-8"></div>
+                                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                    <span class="border-r border-gray-400 mr-2"></span>
+                                    溫馨型<span class="text-lg text-gray-500 font-normal">-四人套房</span>
+                                </p>
+                                <div class="flex justify-center gap-2">
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-shower fa-2x"></i><i
+                                                class="fas fa-shoe-prints"></i></p>
+                                        <p class="">乾溼分離</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class="">附早餐</p>
+                                    </div>
+                                </div>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                            </div>
+                            <div class="p-3 bg-white rounded shadow">
+                                <div class=" relative">
+                                    <img src="/img/rooms/room-6-1.jpg" alt="" class="">
+                                    <button type="button" class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                        <div class="border border-white px-4 py-1 text-white rounded">查看照片</div>
+                                    </button>
+                                </div>
+                                <div class="h-8"></div>
+                                <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
+                                    <span class="border-r border-gray-400 mr-2"></span>
+                                    家庭式<span class="text-lg text-gray-500 font-normal">-六人房</span>
+                                </p>
+                                <div class="flex justify-center gap-2">
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-bath fa-2x"></i></p>
+                                        <p class="">房外衛浴</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-tree fa-2x"></i></p>
+                                        <p class="">景觀</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class="">附早餐</p>
+                                    </div>
+                                </div>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                            </div>
                         </div>
-                        <div class="p-3 h-96 bg-white rounded shadow">
-                            <div class="">
-                                <img src="/img/rooms/room-3-1.jpg" alt="" class="">
-                            </div>
-                            <div class="h-8"></div>
-                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
-                                <span class="border-r border-gray-400 mr-2"></span>
-                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                    </div>
+                    <div class="h-10"></div>
+                    <p class=" text-xl text-gray-600 font-semibold  mb-2 text-center">
+                        <span class="border-r border-gray-400 mr-2"></span>
+                        訂房須知<span class="text-lg text-gray-500 font-normal">-客戶權益</span>
+                    </p>
+                </div>
+                <div class="h-3/5 w-3/4 -top-80 -left-20 bg-gray-400 absolute" style="z-index: -10"></div>
+                <div class="bg-white rounded p-8">
+                    <div class="w-full h-full flex flex-wrap items-center divide-x-2">
+                        <div class="text-lg text-gray-600 font-semibold px-4">
+                            <p class="">
+                                1.本園採預約制，請先來電訂房或預約品嘗手工烘焙單品咖啡
                             </p>
-
+                            <p class="">
+                                2.過年期間案定價計費
+                            </p>
+                            <p class="">
+                                3.本園提供下午茶(每人200元)，需事先預約
+                            </p>
+                            <p class="">
+                                4.本園專營手工客製化咖啡烘焙，提供單品原豆及掛耳式咖啡，來電訂購宅配六盒免運費
+                            </p>
+                            <p class="">
+                                ※訂房需先支付住宿費30%之訂金
+                            </p>
                         </div>
-                        <div class="p-3 h-96 bg-white rounded shadow">
-                            <div class="">
-                                <img src="/img/rooms/room-4-1.jpg" alt="" class="">
-                            </div>
-                            <div class="h-8"></div>
-                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
-                                <span class="border-r border-gray-400 mr-2"></span>
-                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                        <div class="text-lg text-gray-600 font-semibold px-4">
+                            <p class="text-xl">
+                                <span class="border-r border-gray-400 mr-2"></span>退訂注意事項
                             </p>
-
-                        </div>
-                        <div class="p-3 h-96 bg-white rounded shadow">
-                            <div class="">
-                                <img src="/img/rooms/room-6-1.jpg" alt="" class="">
-                            </div>
-                            <div class="h-8"></div>
-                            <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
-                                <span class="border-r border-gray-400 mr-2"></span>
-                                蜜月型<span class="text-lg text-gray-500 font-normal">-雙人套房</span>
+                            <p class="">
+                                14天前 全額退回訂金
                             </p>
-
+                            <p class="">
+                                10-13天 退回70%訂金；
+                            </p>
+                            <p class="">
+                                7-9天 退回50%訂金；
+                            </p>
+                            <p class="">
+                                4-6天 退回40%訂金；
+                            </p>
+                            <p class="">
+                                2-3天 退回30%訂金；
+                            </p>
+                            <p class="">
+                                前1日 退回20%訂金；；
+                            </p>
+                            <p class="">
+                                當天解約恕不退若有不便之處請多多包涵!
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="h-3/5 w-3/4 -top-80 -left-20 bg-gray-400 absolute" style="z-index: -10"></div>
+        </div>
+        <div class="bg-gray-200 bg-opacity-90">
+            <div class=" container m-auto p-8">
+                <div class="w-full h-full flex gap-8 justify-center">
+                    <div class="text-lg text-gray-600 font-semibold">
+                        <p class=""><i class="fas fa-phone-volume"></i> 訂房專線:(05)2627-233</p>
+                        <p class=""><i class="fab fa-facebook-square"></i> 前往 <a href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/" class=" text-blue-600">Facebook </a>訂房</p>
+                        <p class=""><i class="fas fa-map-marked-alt"></i> 聯絡地址:嘉義縣梅山鄉永興村九芎坑55-26號</p>
+                        <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
+                    </div>
+                    <div class="w-40">
+                        <img src="/img/about/homestay.jpg" alt="">
+                    </div>
+                    <div class="">
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E5%25A4%25A9%25E7%258E%2589%25E5%259C%2592%25E6%2599%25AF%25E8%25A7%2580%25E4%25BC%2591%25E9%2596%2592%25E6%25B8%25A1%25E5%2581%2587%25E6%25B0%2591%25E5%25AE%25BF-%25E6%25A2%2585%25E5%25B1%25B1%25E5%2585%25AC%25E5%259C%2592%25E5%25A4%25AA%25E5%25B9%25B3%25E9%259B%25B2%25E6%25A2%25AF%25E8%25BD%2589%25E9%2581%258B%25E7%25AB%2599-%25E8%25B7%259D%25E7%25B4%2584500%25E5%2585%25AC%25E5%25B0%25BA-801386229918610%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
-
+    {{-- modal --}}
+    <div class=" fixed w-screen h-screen bg-gray-900 bg-opacity-80 backdrop-filter backdrop-blur top-0" id="modal" style="z-index: 999">
+        <div class="container h-full m-auto flex justify-center items-center">
+            <div class="bg-gray-300 p-20 rounded bg-opacity-50"></div>
+        </div>
     </div>
-
+    {{-- modal --}}
 
     @livewireScripts
 </body>
