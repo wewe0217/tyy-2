@@ -127,7 +127,7 @@
                 <div class=" absolute w-full bg-gray-900 h-12 top-0 right-0" id="loading_cover"></div>
             </div>
         </div>
-        <div class="w-0 h-0 absolute bottom-0 left-0 rounded-t-full rounded-r-full bg-white" id="loading_success"></div>
+        <div class="w-0 h-0 absolute bottom-0 left-0 rounded-tr-full bg-white" id="loading_success"></div>
     </div>
     {{--loading page--}}
     <div class=" bg-white bg-opacity-70">
