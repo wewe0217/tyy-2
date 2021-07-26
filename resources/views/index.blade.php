@@ -339,7 +339,7 @@
                     <div class="h-full w-full border border-yellow-900 lg:-mr-12 lg:-mb-12 -mr-4 -mb-4"></div>
                 </div>
                 <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
-                    <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/bg3.jpg')">
+                    <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/about/bg4.jpg')">
                     </div>
                 </div>
             </div>
@@ -348,7 +348,7 @@
             <div
                 class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
                 <div class="lg:col-span-1 w-full lg:w-auto">
-                    <img src="/img/bg2.jpg" alt="" class="">
+                    <img src="/img/about/bg2.jpg" alt="" class="">
                 </div>
                 <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
                     <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
@@ -396,7 +396,7 @@
                     </button>
                 </div>
                 <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0"
-                    style="background-image: url('/img/bg3.jpg')">
+                    style="background-image: url('/img/about/bg4.jpg')">
                     <button type="button" class="w-full h-full block">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
@@ -514,9 +514,12 @@
         <div class="lg:pb-20 pb-10" id="rooms">
             <div class="container m-auto h-full relative">
                 <div class="lg:py-8 px-2 lg:px-8 text-gray-600 relative" style="z-index: 10">
-                    <p class=" text-xl text-gray-600 font-semibold mb-4  lg:mb-8 lg:text-center">
+                    <p class=" text-xl text-gray-600 font-semibold  lg:text-center">
                         <span class="border-r border-gray-400 mr-2"></span>
                         客房介紹<span class="text-lg text-gray-500 font-normal">-愜意休憩</span>
+                    </p>
+                    <p class="text-right p-2">
+                        <a href="/img/price.jpg" class="p-2 bg-gray-500 rounded text-white" data-lightbox="price" data-title="價目清單">價目表</a>
                     </p>
                     <div class="w-full relative">
                         <div class="w-full grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-4">
@@ -559,7 +562,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
 
                             </div>
                             <div class="p-3  bg-white rounded shadow">
@@ -596,7 +599,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
@@ -631,7 +634,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
@@ -669,11 +672,12 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="h-4 lg:h-10"></div>
+                    <div class="h-4 lg:h-10">
+                    </div>
                     <p class=" text-xl text-gray-600 font-semibold  mb-2 text-center" id="book">
                         <span class="border-r border-gray-400 mr-2"></span>
                         訂房須知<span class="text-lg text-gray-500 font-normal">-客戶權益</span>
@@ -729,7 +733,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-200 bg-opacity-90">
+        <div class="bg-yellow-900 bg-opacity-20">
             <div class=" container m-auto p-8">
                 <div class="w-full h-full flex gap-8 justify-center flex-wrap">
                     <div class="text-lg text-gray-600 font-semibold w-full lg:w-auto">
@@ -741,7 +745,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img src="/img/about/homestay.jpg" alt="">
+                        <img src="/img/about/homestay-2.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
