@@ -11,16 +11,17 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="/dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.theme.default.min.css">
     @livewireStyles
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="/fontawesome/js/all.js"></script>
-
 </head>
 
 <body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/bg5.jpg')">
-    {{--loading page--}}
+    {{-- loading page --}}
     <div class="w-screen h-screen bg-gray-900 backdrop-filter backdrop-blur fixed" style="z-index: 999" id="loading">
         <div class="w-full h-full flex flex-col justify-center items-center">
             <div class="w-60 text-white animate-pulse">
@@ -129,7 +130,7 @@
         </div>
         <div class="w-0 h-0 absolute bottom-0 left-0 rounded-tr-full bg-white" id="loading_success"></div>
     </div>
-    {{--loading page--}}
+    {{-- loading page --}}
     <div class=" bg-white bg-opacity-70">
 
         {{-- nav --}}
@@ -246,6 +247,8 @@
                         <div class="">
                             <button type="button" class="text-xl" onclick="myscroll('about')">關於天玉園</button>
                             <span class="mx-4 border-r h-full border-gray-800"></span>
+                            <button type="button" class="text-xl" onclick="myscroll('traffic')">交通資訊</button>
+                            <span class="mx-4 border-r h-full border-gray-800"></span>
                             <button type="button" class="text-xl" onclick="myscroll('coffee')">職人咖啡</button>
                             <span class="mx-4 border-r h-full border-gray-800"></span>
                             <button type="button" class="text-xl" onclick="myscroll('rooms')">客房介紹</button>
@@ -314,6 +317,9 @@
                         onclick="myscroll('about')">關於天玉園</button>
                     <button type="button"
                         class="w-full block p-2 border-b border-gray-400 text-center text-2xl font-semibold text-gray-600"
+                        onclick="myscroll('traffic')">交通資訊</button>
+                    <button type="button"
+                        class="w-full block p-2 border-b border-gray-400 text-center text-2xl font-semibold text-gray-600"
                         onclick="myscroll('coffee')">職人咖啡</button>
                     <button type="button"
                         class="w-full block p-2 border-b border-gray-400 text-center text-2xl font-semibold text-gray-600"
@@ -339,7 +345,8 @@
                     <div class="h-full w-full border border-yellow-900 lg:-mr-12 lg:-mb-12 -mr-4 -mb-4"></div>
                 </div>
                 <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
-                    <div class="h-full w-full bg-cover bg-center shadow" style="background-image: url('/img/about/bg4.jpg')">
+                    <div class="h-full w-full bg-cover bg-center shadow"
+                        style="background-image: url('/img/view/view-9.jpg')">
                     </div>
                 </div>
             </div>
@@ -348,7 +355,7 @@
             <div
                 class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
                 <div class="lg:col-span-1 w-full lg:w-auto">
-                    <img src="/img/about/bg2.jpg" alt="" class="">
+                    <img src="/img/view/view-2.jpg" alt="" class="">
                 </div>
                 <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
                     <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
@@ -396,7 +403,7 @@
                     </button>
                 </div>
                 <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0"
-                    style="background-image: url('/img/about/bg4.jpg')">
+                    style="background-image: url('/img/view/view-9.jpg')">
                     <button type="button" class="w-full h-full block">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
@@ -410,12 +417,41 @@
                 </div>
             </div>
         </div>
-        <div class="mt-20 ">
+        <div class="h-20"></div>
+        <div class="container m-auto " id="view">
+            <p class=" text-xl text-gray-600 font-semibold  mb-4 lg:text-center px-2">
+                <span class="border-r border-gray-400 mr-2"></span>
+                園區剪影
+            </p>
+            <div class="w-full">
+                <div class="owl-carousel owl-theme view">
+                    <div class="item ">
+                        <img src="/img/view/view-3.jpg" alt="" class="object-cover h-52">
+                    </div>
+                    <div class="item h-56">
+                        <img src="/img/view/view-6.jpg" alt="" class="object-cover  h-52">
+                    </div>
+                    <div class="item ">
+                        <img src="/img/view/view-7.jpg" alt="" class="object-cover  h-52">
+                    </div>
+                    <div class="item ">
+                        <img src="/img/view/view-8.jpg" alt="" class="object-cover  h-52">
+                    </div>
+                    <div class="item ">
+                        <img src="/img/view/view-10.jpg" alt="" class="object-cover  h-52">
+                    </div>
+                    <div class="item">
+                        <img src="/img/view/view-12.jpg" alt="" class="object-cover  h-52">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 " id="traffic">
             <div class="container m-auto relative">
                 <div class="bg-white absolute -top-36 rounded -left-20 lg:w-3/5 w-screen"
                     style=" height: 70vh;z-index:-10"></div>
-                <div class="w-full flex flex-wrap">
-                    <div class="w-full lg:w-2/3 lg:border border-yellow-900 h-96 relative">
+                <div class="w-full flex flex-wrap items-center">
+                    <div class="w-full lg:w-1/2 lg:border border-yellow-900 h-96 relative">
                         <div class="w-full h-full absolute lg:-bottom-4 lg:-right-4">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.562534396702!2d120.55421369667815!3d23.572371093942284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec0c13e1cc6f7%3A0x7a5cc5c30dca869!2z5aSp546J5ZyS5pmv6KeA5rih5YGH5LyR6ZaS5rCR5a6_!5e0!3m2!1szh-TW!2stw!4v1627009660607!5m2!1szh-TW!2stw"
@@ -423,8 +459,8 @@
                                 class="w-full h-full shadow"></iframe>
                         </div>
                     </div>
-                    <div class="w-full lg:w-1/3">
-                        <div class="py-8 lg:pl-8 px-2 lg:pr-0 text-gray-600">
+                    <div class="w-full lg:w-1/2">
+                        <div class="py-2 lg:pl-8 px-2 lg:pr-0 text-gray-600">
                             <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
                                 交通資訊 <span class="text-lg text-gray-500 font-normal">-旅行足跡</span>
                             </p>
@@ -433,7 +469,7 @@
                             </p>
                             <div class="pl-4">
                                 <p class="text-lg mt-2  font-semibold">
-                                    高鐵雲林站BRT(斗六後火車站)->台西客運(梅山果菜市場)<br>->步行約15分鐘<br>(共約120分鐘)
+                                    高鐵雲林站BRT(斗六後火車站)->台西客運(梅山果菜市場)->步行約15分鐘(共約120分鐘)
                                 </p>
                                 <p class="text-lg mt-2  font-semibold">
                                     嘉義火車站->嘉義縣公車 7323(南梅山站)->步行約6分鐘 (共約70分鐘)
@@ -447,6 +483,30 @@
                             <p class="text-lg mt-2  font-semibold pl-4">
                                 國道3號->梅山出口下交流道(往梅山方向)->縣道162->台三線270處
                             </p>
+                            <div class="h-2"></div>
+                            <p class="text-xl font-semibold">
+                                <span class="text-yellow-600">參、</span>專車接駁:
+                            </p>
+                            <p class="text-lg mt-2  font-semibold pl-4">
+                                可選擇預約本園專車嘉義市、斗六接送服務（費用另議）
+                            </p>
+                            <div class="h-10"></div>
+                            <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
+                                周邊景點 <span class="text-lg text-gray-500 font-normal"></span>
+                            </p>
+                            <p class="text-lg mt-2  font-semibold pl-4">
+                                車程10分內：梅山公園、梅山中華聖母天主堂、梅山玉虛宮、梅子元氣館
+                            </p>
+                            <p class="text-lg mt-2  font-semibold pl-4">
+                                車程20分內：竹崎親水公園、竹崎火車站
+                            </p>
+                            <p class="text-lg mt-2  font-semibold pl-4">
+                                車程30分內：太平雲梯、太平36彎、太平老街
+                            </p>
+                            <p class="text-lg mt-2  font-semibold pl-4">
+                                車程40分內：碧湖山觀光茶園
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -494,9 +554,12 @@
                                         <span class="border-r border-gray-400 mr-2"></span>
                                         單品莊園咖啡<br class="lg:hidden"> <span
                                             class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
+                                        <br class="lg:hidden">
+                                        <a href=""
+                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded">咖啡品項一覽</a>
                                     </p>
                                     <p class="text-lg mt-2  font-semibold pl-4">
-                                        巴西、坦尚尼亞圓豆、瓜地馬拉經典焦糖等
+                                        肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
                                         <img src="/img/coffee/coffee-3.jpg" alt="" class="">
@@ -514,30 +577,35 @@
         <div class="lg:pb-20 pb-10" id="rooms">
             <div class="container m-auto h-full relative">
                 <div class="lg:py-8 px-2 lg:px-8 text-gray-600 relative" style="z-index: 10">
-                    <p class=" text-xl text-gray-600 font-semibold  lg:text-center">
+                    <p class=" text-xl text-gray-600 font-semibold mb-4 lg:text-center">
                         <span class="border-r border-gray-400 mr-2"></span>
                         客房介紹<span class="text-lg text-gray-500 font-normal">-愜意休憩</span>
+                        <span class="text-right p-2 lg:block lg:w-full">
+                            <a href="/img/rooms/price.jpg"
+                                class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded"
+                                data-lightbox="room" data-title="房型價目表">價目表</a>
+                        </span>
                     </p>
-                    <p class="text-right p-2">
-                        <a href="/img/price.jpg" class="p-2 bg-gray-500 rounded text-white" data-lightbox="price" data-title="價目清單">價目表</a>
-                    </p>
+
                     <div class="w-full relative">
                         <div class="w-full grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-4">
                             <div class="p-3  bg-white rounded shadow">
                                 <div class="relative">
                                     <img src="/img/rooms/room-2-1.jpg" alt="" class="">
-                                    <button
-                                        class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                    <div
+                                        class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-2-1.jpg" data-lightbox="room-2" data-title="內部環境照"
-                                            class="border border-white px-4 py-1 text-white rounded">
-                                            查看照片
+                                            class=" block w-full h-full">
+                                            <div class="w-full h-full flex justify-center items-center">
+                                                <button
+                                                    class="border border-white px-4 py-1 text-white rounded">查看照片</button>
+                                            </div>
+                                            <a href="/img/rooms/room-2-2.jpg" data-lightbox="room-2" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
+                                            <a href="/img/rooms/room-2-3.jpg" data-lightbox="room-2" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
                                         </a>
-                                        <a href="/img/rooms/room-2-2.jpg" data-lightbox="room-2" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                        <a href="/img/rooms/room-2-3.jpg" data-lightbox="room-2" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                    </button>
-
+                                    </div>
                                 </div>
                                 <div class="h-8"></div>
                                 <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
@@ -562,23 +630,26 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
 
                             </div>
                             <div class="p-3  bg-white rounded shadow">
                                 <div class="relative">
                                     <img src="/img/rooms/room-3-1.jpg" alt="" class="">
-                                    <button
-                                        class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                    <div
+                                        class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-3-1.jpg" data-lightbox="room-3" data-title="內部環境照"
-                                            class="border border-white px-4 py-1 text-white rounded">
-                                            查看照片
+                                            class=" block w-full h-full">
+                                            <div class="w-full h-full flex justify-center items-center">
+                                                <button
+                                                    class="border border-white px-4 py-1 text-white rounded">查看照片</button>
+                                            </div>
+                                            <a href="/img/rooms/room-3-2.jpg" data-lightbox="room-3" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
+                                            <a href="/img/rooms/room-3-3.jpg" data-lightbox="room-3" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
                                         </a>
-                                        <a href="/img/rooms/room-3-2.jpg" data-lightbox="room-3" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                        <a href="/img/rooms/room-3-3.jpg" data-lightbox="room-3" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                    </button>
+                                    </div>
                                 </div>
                                 <div class="h-8"></div>
                                 <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
@@ -599,24 +670,27 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
                                     <img src="/img/rooms/room-4-1.jpg" alt="" class="">
-                                    <button
-                                        class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                    <div
+                                        class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-4-1.jpg" data-lightbox="room-4" data-title="內部環境照"
-                                            class="border border-white px-4 py-1 text-white rounded">
-                                            查看照片
+                                            class=" block w-full h-full">
+                                            <div class="w-full h-full flex justify-center items-center">
+                                                <button
+                                                    class="border border-white px-4 py-1 text-white rounded">查看照片</button>
+                                            </div>
+                                            <a href="/img/rooms/room-4-2.jpg" data-lightbox="room-4" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
+                                            <a href="/img/rooms/room-4-3.jpg" data-lightbox="room-4" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
+                                            <a href="/img/rooms/room-4-4.jpg" data-lightbox="room-4" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
                                         </a>
-                                        <a href="/img/rooms/room-4-2.jpg" data-lightbox="room-4" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                        <a href="/img/rooms/room-4-3.jpg" data-lightbox="room-4" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                        <a href="/img/rooms/room-4-4.jpg" data-lightbox="room-4" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                    </button>
+                                    </div>
                                 </div>
                                 <div class="h-8"></div>
                                 <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
@@ -634,24 +708,27 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
                                     <img src="/img/rooms/room-6-1.jpg" alt="" class="">
-                                    <button
-                                        class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
+                                    <div
+                                        class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-6-1.jpg" data-lightbox="room-6" data-title="內部環境照"
-                                            class="border border-white px-4 py-1 text-white rounded">
-                                            查看照片
+                                            class=" block w-full h-full">
+                                            <div class="w-full h-full flex justify-center items-center">
+                                                <button
+                                                    class="border border-white px-4 py-1 text-white rounded">查看照片</button>
+                                            </div>
+                                            <a href="/img/rooms/room-6-2.jpg" data-lightbox="room-6" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
+                                            <a href="/img/rooms/room-6-3.jpg" data-lightbox="room-6" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
+                                            <a href="/img/rooms/room-6-4.jpg" data-lightbox="room-6" data-title="內部環境照"
+                                                class="w-0 h-0"></a>
                                         </a>
-                                        <a href="/img/rooms/room-6-2.jpg" data-lightbox="room-6" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                        <a href="/img/rooms/room-6-3.jpg" data-lightbox="room-6" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                        <a href="/img/rooms/room-6-4.jpg" data-lightbox="room-6" data-title="內部環境照"
-                                            class="w-0 h-0"></a>
-                                    </button>
+                                    </div>
                                 </div>
                                 <div class="h-8"></div>
                                 <p class=" text-xl text-gray-600 font-semibold  mb-4 text-center">
@@ -672,12 +749,11 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium"></p>
+                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
                             </div>
                         </div>
                     </div>
-                    <div class="h-4 lg:h-10">
-                    </div>
+                    <div class="h-4 lg:h-10"></div>
                     <p class=" text-xl text-gray-600 font-semibold  mb-2 text-center" id="book">
                         <span class="border-r border-gray-400 mr-2"></span>
                         訂房須知<span class="text-lg text-gray-500 font-normal">-客戶權益</span>
@@ -733,7 +809,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-yellow-900 bg-opacity-20">
+        <div class="bg-gray-200 bg-opacity-90">
             <div class=" container m-auto p-8">
                 <div class="w-full h-full flex gap-8 justify-center flex-wrap">
                     <div class="text-lg text-gray-600 font-semibold w-full lg:w-auto">
@@ -745,7 +821,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img src="/img/about/homestay-2.jpg" alt="">
+                        <img src="/img/about/homestay.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
