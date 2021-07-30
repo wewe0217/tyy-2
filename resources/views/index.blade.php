@@ -20,7 +20,7 @@
     <script src="/fontawesome/js/all.js"></script>
 </head>
 
-<body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/bg5.jpg')">
+<body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/about/bg.jpg')">
     {{-- loading page --}}
     <div class="w-screen h-screen bg-gray-900 backdrop-filter backdrop-blur fixed" style="z-index: 999" id="loading">
         <div class="w-full h-full flex flex-col justify-center items-center">
@@ -346,7 +346,7 @@
                 </div>
                 <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
                     <div class="h-full w-full bg-cover bg-center shadow"
-                        style="background-image: url('/img/view/view-9.jpg')">
+                        style="background-image: url('/img/about/view.jpg')">
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@
             <div
                 class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
                 <div class="lg:col-span-1 w-full lg:w-auto">
-                    <img src="/img/view/view-2.jpg" alt="" class="">
+                    <img src="/img/about/view-2.jpg" alt="" class="">
                 </div>
                 <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
                     <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
@@ -369,7 +369,11 @@
                     </p>
                     <p class="mt-4">
                         2014年夫妻倆毅然決然將人生的下半場全心全力投入此地
+                    </p>
+                    <p class="">
                         以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神
+                    </p>
+                    <p class="">
                         打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」
                     </p>
                     <p class="">
@@ -391,7 +395,7 @@
                 </div>
                 <div class="w-1/2 lg:w-auto  h-28 lg:h-auto pl-1 lg:pl-0">
                     <button type="button" class="w-full h-full block bg-cover bg-bottom"
-                        style="background-image: url('/img/coffee/coffee-bg.jpg')">
+                        style="background-image: url('/img/about/coffee.jpg')">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                             <div class=" text-white text-xl text-center">
@@ -403,14 +407,14 @@
                     </button>
                 </div>
                 <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0"
-                    style="background-image: url('/img/view/view-9.jpg')">
+                    style="background-image: url('/img/about/view.jpg')">
                     <button type="button" class="w-full h-full block">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                             <div class=" text-white text-xl text-center">
                                 <p class="text-2xl mb-4">慢活輕旅行</p>
                                 <p class="">800多坪的綠化園區與休憩涼亭</p>
-                                <p class="">觀瀑、品花、賞魚</p>
+                                <p class="">觀瀑、賞花、賞魚</p>
                             </div>
                         </div>
                     </button>
@@ -426,22 +430,22 @@
             <div class="w-full">
                 <div class="owl-carousel owl-theme view">
                     <div class="item ">
-                        <img src="/img/view/view-3.jpg" alt="" class="object-cover h-52">
+                        <img src="/img/view/view.jpg" alt="" class="object-cover h-52">
                     </div>
                     <div class="item h-56">
-                        <img src="/img/view/view-6.jpg" alt="" class="object-cover  h-52">
+                        <img src="/img/view/view-2.jpg" alt="" class="object-cover  h-52">
                     </div>
                     <div class="item ">
-                        <img src="/img/view/view-7.jpg" alt="" class="object-cover  h-52">
+                        <img src="/img/view/view-3.jpg" alt="" class="object-cover  h-52">
                     </div>
                     <div class="item ">
-                        <img src="/img/view/view-8.jpg" alt="" class="object-cover  h-52">
+                        <img src="/img/view/view-4.jpg" alt="" class="object-cover  h-52">
                     </div>
                     <div class="item ">
-                        <img src="/img/view/view-10.jpg" alt="" class="object-cover  h-52">
+                        <img src="/img/view/view-5.jpg" alt="" class="object-cover  h-52">
                     </div>
                     <div class="item">
-                        <img src="/img/view/view-12.jpg" alt="" class="object-cover  h-52">
+                        <img src="/img/view/view-6.jpg" alt="" class="object-cover  h-52">
                     </div>
                 </div>
             </div>
@@ -468,11 +472,11 @@
                                 <span class="text-yellow-600">壹、</span>大眾運輸:
                             </p>
                             <div class="pl-4">
-                                <p class="text-lg mt-2  font-semibold">
-                                    高鐵雲林站BRT(斗六後火車站)->台西客運(梅山果菜市場)->步行約15分鐘(共約120分鐘)
+                                <p class="text-lg mt-2">
+                                    高鐵雲林站BRT(斗六後火車站)→台西客運(梅山果菜市場)→步行約15分鐘(共約120分鐘)
                                 </p>
-                                <p class="text-lg mt-2  font-semibold">
-                                    嘉義火車站->嘉義縣公車 7323(南梅山站)->步行約6分鐘 (共約70分鐘)
+                                <p class="text-lg mt-2">
+                                    嘉義火車站→嘉義縣公車7323(南梅山站)→步行約6分鐘(共約70分鐘)
                                 </p>
                             </div>
 
@@ -480,31 +484,31 @@
                             <p class="text-xl font-semibold">
                                 <span class="text-yellow-600">貳、</span>自行前往:
                             </p>
-                            <p class="text-lg mt-2  font-semibold pl-4">
-                                國道3號->梅山出口下交流道(往梅山方向)->縣道162->台三線270處
+                            <p class="text-lg mt-2 pl-4">
+                                國道3號→梅山出口下交流道(往梅山方向)→縣道162→台三線270處
                             </p>
                             <div class="h-2"></div>
                             <p class="text-xl font-semibold">
                                 <span class="text-yellow-600">參、</span>專車接駁:
                             </p>
-                            <p class="text-lg mt-2  font-semibold pl-4">
-                                可選擇預約本園專車嘉義市、斗六接送服務（費用另議）
+                            <p class="text-lg mt-2 pl-4">
+                                可選擇預約本園專車嘉義市、斗六接送服務(費用另議)
                             </p>
                             <div class="h-10"></div>
                             <p class=" text-xl font-semibold border-l border-gray-400 mb-4 px-2">
                                 周邊景點 <span class="text-lg text-gray-500 font-normal"></span>
                             </p>
-                            <p class="text-lg mt-2  font-semibold pl-4">
-                                車程10分內：梅山公園、梅山中華聖母天主堂、梅山玉虛宮、梅子元氣館
+                            <p class="text-lg mt-2 pl-4">
+                                車程5~10分鐘：梅山公園、梅山中華聖母天主堂、梅山玉虛宮、梅子元氣館
                             </p>
-                            <p class="text-lg mt-2  font-semibold pl-4">
-                                車程20分內：竹崎親水公園、竹崎火車站
+                            <p class="text-lg mt-2 pl-4">
+                                車程10~15分鐘：竹崎親水公園、竹崎火車站
                             </p>
-                            <p class="text-lg mt-2  font-semibold pl-4">
-                                車程30分內：太平雲梯、太平36彎、太平老街
+                            <p class="text-lg mt-2 pl-4">
+                                車程25~30分鐘：太平雲梯、太平36彎、太平老街
                             </p>
-                            <p class="text-lg mt-2  font-semibold pl-4">
-                                車程40分內：碧湖山觀光茶園
+                            <p class="text-lg mt-2 pl-4">
+                                車程35~40分鐘：碧湖山觀光茶園
                             </p>
 
                         </div>
@@ -524,7 +528,7 @@
                 <div class="relative">
                     <div class="w-2/3 lg:w-1/3 h-96 border border-yellow-900 absolute -top-16 left-16"></div>
                     <div class=" absolute w-full lg:w-1/3 -top-10  lg:left-10">
-                        <img src="/img/coffee/coffee-6.jpg" alt="" class="w-full">
+                        <img src="/img/coffee/coffee.jpg" alt="" class="w-full">
                         <div
                             class="w-full h-full bg-gray-600 absolute top-0 bg-opacity-30 backdrop-filter backdrop-grayscale">
                         </div>
@@ -539,10 +543,10 @@
                                         咖啡總監 <span class="text-lg text-gray-500 font-normal">-Jerzenchen</span>
                                     </p>
                                     <p class="text-lg mt-2  font-semibold pl-4">
-                                        2018年6月獲得“國際咖啡師”
+                                        2018年6月獲得「國際咖啡師」
                                     </p>
                                     <p class="text-lg mt-2  font-semibold pl-4">
-                                        英國City&Guilds“國際咖啡烘豆師”
+                                        英國City&Guilds「國際咖啡烘豆師」
                                     </p>
                                     <p class=" mt-2  pl-4">
                                         <span class="text-2xl text-green-500">堅</span>
@@ -558,12 +562,12 @@
                                         <a href="/img/coffee/price.jpg"
                                             class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist" data-lightbox="coffee" data-title="咖啡價目表">咖啡品項一覽</a>
                                     </p>
-                                    <p class="text-lg mt-2  font-semibold pl-4">
+                                    <p class="mt-2 pl-4">
                                         肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
-                                        <img src="/img/coffee/coffee-3.jpg" alt="" class="" >
-                                        <img src="/img/coffee/coffee-5.jpg" alt="" class="">
+                                        <img src="/img/coffee/coffee-2.jpg" alt="" class="" >
+                                        <img src="/img/coffee/coffee-3.jpg" alt="" class="">
                                     </div>
                                 </div>
                             </div>
@@ -756,7 +760,7 @@
                     <div class="h-4 lg:h-10"></div>
                     <p class=" text-xl text-gray-600 font-semibold  mb-2 text-center" id="book">
                         <span class="border-r border-gray-400 mr-2"></span>
-                        訂房須知<span class="text-lg text-gray-500 font-normal">-客戶權益</span>
+                        訂房須知<span class="text-lg text-gray-500 font-normal">-旅客權益</span>
                     </p>
                 </div>
                 {{-- 背景方框 --}}
@@ -764,7 +768,7 @@
                 {{-- 背景方框 --}}
                 <div class="bg-white rounded p-8">
                     <div class="w-full h-full flex flex-wrap items-center divide-y-2 lg:divide-y-0 lg:divide-x-2">
-                        <div class="text-lg text-gray-600 font-semibold p-4">
+                        <div class="text-lg text-gray-600 p-4">
                             <p class="">
                                 1.本園採預約制，請先來電訂房或預約品嘗手工烘焙單品咖啡
                             </p>
@@ -777,34 +781,35 @@
                             <p class="">
                                 4.本園專營手工客製化咖啡烘焙，提供單品原豆及掛耳式咖啡，來電訂購宅配六盒免運費
                             </p>
-                            <p class="">
+                            <p class="font-semibold">
                                 ※訂房需先支付住宿費30%之訂金
                             </p>
                         </div>
-                        <div class="text-lg text-gray-600 font-semibold p-4">
+                        <div class="text-lg text-gray-600 p-4">
                             <p class="text-xl">
-                                <span class="border-r border-gray-400 mr-2"></span>退訂注意事項
+                                <span class="border-r border-gray-400 mr-2"></span>
+                                <span class="font-semibold">退訂注意事項</span>
                             </p>
                             <p class="">
                                 14天前 全額退回訂金
                             </p>
                             <p class="">
-                                10-13天 退回70%訂金；
+                                10~13天 退回70%訂金；
                             </p>
                             <p class="">
-                                7-9天 退回50%訂金；
+                                7~9天 退回50%訂金；
                             </p>
                             <p class="">
-                                4-6天 退回40%訂金；
+                                4~6天 退回40%訂金；
                             </p>
                             <p class="">
-                                2-3天 退回30%訂金；
+                                2~3天 退回30%訂金；
                             </p>
                             <p class="">
-                                前1日 退回20%訂金；；
+                                前1日 退回20%訂金；
                             </p>
                             <p class="">
-                                當天解約恕不退若有不便之處請多多包涵!
+                                <span class="text-red-700 font-semibold">當天解約恕不退</span>，若有不便之處請多多包涵！
                             </p>
                         </div>
                     </div>
@@ -823,7 +828,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img src="/img/card-3.jpg" alt="">
+                        <img src="/img/about/homestay-2.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
