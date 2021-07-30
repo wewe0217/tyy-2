@@ -47,5 +47,11 @@ $(document).ready(function () {
                 items: 4
             }
         }
-    })
+    });
+
+
+    $(".mylist").on('click',function () {
+        var src=$(this).attr('href');
+        $(".lb-container").zoom({url:src});
+      });
 });

@@ -138,8 +138,8 @@
             style="z-index:900;background-color: #e8f4d9d0">
             <div class=" container m-auto">
                 <div class="w-full flex text-gray-800">
-                    <div class="">
-                        <div class=" inline-block">
+                    <div class=" cursor-pointer" onclick="myscroll('header')" >
+                        <div class=" inline-block" >
                             <p class="">
                                 <svg version="1.1" id="header_name" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -280,7 +280,7 @@
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
-                <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold">
+                <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold" >
                     <p class="">天玉園景觀休閒渡假民宿</p>
                 </div>
                 <button class="text-gray-600 h-10 w-10 text-3xl">
@@ -555,14 +555,14 @@
                                         單品莊園咖啡<br class="lg:hidden"> <span
                                             class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
                                         <br class="lg:hidden">
-                                        <a href=""
-                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded">咖啡品項一覽</a>
+                                        <a href="/img/coffee/price.jpg"
+                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist" data-lightbox="coffee" data-title="咖啡價目表">咖啡品項一覽</a>
                                     </p>
                                     <p class="text-lg mt-2  font-semibold pl-4">
                                         肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
-                                        <img src="/img/coffee/coffee-3.jpg" alt="" class="">
+                                        <img src="/img/coffee/coffee-3.jpg" alt="" class="" >
                                         <img src="/img/coffee/coffee-5.jpg" alt="" class="">
                                     </div>
                                 </div>
@@ -582,7 +582,7 @@
                         客房介紹<span class="text-lg text-gray-500 font-normal">-愜意休憩</span>
                         <span class="text-right p-2 lg:block lg:w-full">
                             <a href="/img/rooms/price.jpg"
-                                class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded"
+                                class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist"
                                 data-lightbox="room" data-title="房型價目表">價目表</a>
                         </span>
                     </p>
@@ -759,7 +759,9 @@
                         訂房須知<span class="text-lg text-gray-500 font-normal">-客戶權益</span>
                     </p>
                 </div>
-                <div class="h-3/5 w-3/4 -top-80 -left-20 bg-gray-400 absolute" style="z-index: -10"></div>
+                {{-- 背景方框 --}}
+                <div class="h-3/5 w-3/4 -top-80 -left-20 absolute" style="z-index: -10;background-color: #90360233"></div>
+                {{-- 背景方框 --}}
                 <div class="bg-white rounded p-8">
                     <div class="w-full h-full flex flex-wrap items-center divide-y-2 lg:divide-y-0 lg:divide-x-2">
                         <div class="text-lg text-gray-600 font-semibold p-4">
@@ -809,7 +811,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-200 bg-opacity-90">
+        <div class="" style="background-color: #90360233">
             <div class=" container m-auto p-8">
                 <div class="w-full h-full flex gap-8 justify-center flex-wrap">
                     <div class="text-lg text-gray-600 font-semibold w-full lg:w-auto">
