@@ -595,7 +595,7 @@
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-2-1.jpg" data-lightbox="room-2" data-title="內部環境照"
-                                            class=" block w-full h-full">
+                                            class=" block w-full h-full mylist">
                                             <div class="w-full h-full flex justify-center items-center">
                                                 <button
                                                     class="border border-white px-4 py-1 text-white rounded">查看照片</button>
@@ -639,7 +639,7 @@
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-3-1.jpg" data-lightbox="room-3" data-title="內部環境照"
-                                            class=" block w-full h-full">
+                                            class=" block w-full h-full mylist">
                                             <div class="w-full h-full flex justify-center items-center">
                                                 <button
                                                     class="border border-white px-4 py-1 text-white rounded">查看照片</button>
@@ -678,7 +678,7 @@
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-4-1.jpg" data-lightbox="room-4" data-title="內部環境照"
-                                            class=" block w-full h-full">
+                                            class=" block w-full h-full mylist">
                                             <div class="w-full h-full flex justify-center items-center">
                                                 <button
                                                     class="border border-white px-4 py-1 text-white rounded">查看照片</button>
@@ -716,7 +716,7 @@
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-6-1.jpg" data-lightbox="room-6" data-title="內部環境照"
-                                            class=" block w-full h-full">
+                                            class=" block w-full h-full mylist">
                                             <div class="w-full h-full flex justify-center items-center">
                                                 <button
                                                     class="border border-white px-4 py-1 text-white rounded">查看照片</button>
@@ -823,7 +823,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img src="/img/about/homestay.jpg" alt="">
+                        <img src="/img/card-3.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe

@@ -1905,9 +1905,16 @@ $(document).ready(function () {
   });
   $(".mylist").on('click', function () {
     var src = $(this).attr('href');
-    $(".lb-container").zoom({
-      url: src
-    });
+
+    if (src == '/img/coffee/price.jpg' || src == '/img/rooms/price.jpg') {
+      $(".lb-container").zoom({
+        url: src
+      });
+    } else {
+      $(".lb-container").unbind();
+    }
+
+    ;
   });
 });
 
