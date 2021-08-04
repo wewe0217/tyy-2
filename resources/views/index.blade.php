@@ -634,7 +634,13 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                    <span>定價:3800元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>假日:2800元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>平日:2500元</span>
+                                </p>
 
                             </div>
                             <div class="p-3  bg-white rounded shadow">
@@ -666,6 +672,10 @@
                                         <p class="">落地窗</p>
                                     </div>
                                     <div class="text-center">
+                                        <p class=""><i class="fas fa-shower fa-2x"></i></p>
+                                        <p class="">半套衛浴</p>
+                                    </div>
+                                    <div class="text-center">
                                         <p class=""><i class="fas fa-umbrella-beach fa-2x"></i></p>
                                         <p class="">後陽台</p>
                                     </div>
@@ -674,7 +684,13 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                    <span>定價:3800元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>假日:2800元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>平日:2500元</span>
+                                </p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
@@ -712,7 +728,13 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                    <span>定價:4800元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>假日:4000元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>平日:3600元</span>
+                                </p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
@@ -753,7 +775,13 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-right p-4 text-gray-600 font-medium">定價:</p>
+                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                    <span>定價:6000元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>假日:5400元</span>
+                                    <span class="border-r border-gray-400 mx-1"></span>
+                                    <span>平日:4800元</span>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -773,13 +801,16 @@
                                 1.本園採預約制，請先來電訂房或預約品嘗手工烘焙單品咖啡
                             </p>
                             <p class="">
-                                2.過年期間案定價計費
+                                2.假日定義為星期五至六與國定假日，平日定義為星期日至星期四
                             </p>
                             <p class="">
-                                3.本園提供下午茶(每人200元)，需事先預約
+                                3.過年期間按定價計費
                             </p>
                             <p class="">
-                                4.本園專營手工客製化咖啡烘焙，提供單品原豆及掛耳式咖啡，來電訂購宅配六盒免運費
+                                4.本園提供下午茶(每人200元)，需事先預約
+                            </p>
+                            <p class="">
+                                5.本園專營手工客製化咖啡烘焙，提供單品原豆及掛耳式咖啡，來電訂購宅配六盒免運費
                             </p>
                             <p class="font-semibold">
                                 ※訂房需先支付住宿費30%之訂金
