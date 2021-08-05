@@ -634,7 +634,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:3800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:2800元</span>
@@ -684,7 +684,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:3800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:2800元</span>
@@ -728,7 +728,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:4800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:4000元</span>
@@ -775,7 +775,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 text-gray-600 font-medium">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:6000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:5400元</span>
@@ -798,7 +798,7 @@
                     <div class="w-full h-full flex flex-wrap items-center divide-y-2 lg:divide-y-0 lg:divide-x-2">
                         <div class="text-lg text-gray-600 p-4">
                             <p class="">
-                                1.本園採預約制，請先來電訂房或預約品嘗手工烘焙單品咖啡
+                                1.本園採預約制，請於服務時間來電訂房或預約品嘗手工烘焙單品咖啡
                             </p>
                             <p class="">
                                 2.假日定義為星期五至六與國定假日，平日定義為星期日至星期四
@@ -851,11 +851,12 @@
             <div class=" container m-auto p-8">
                 <div class="w-full h-full flex gap-8 justify-center flex-wrap">
                     <div class="text-lg text-gray-600 font-semibold w-full lg:w-auto">
-                        <p class=""><i class="fas fa-phone-volume"></i> 訂房專線:(05)2627-233</p>
+                        <p class=""><i class="fas fa-phone-volume"></i> 訂房專線：(05)2627-233</p>
+                        <p class=""><i class="fas fa-calendar-check"></i> 服務時間：星期一至日8:00~22:00</p>
                         <p class=""><i class="fab fa-facebook-square"></i> 前往 <a
                                 href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
                                 class=" text-blue-600">Facebook </a>訂房</p>
-                        <p class=""><i class="fas fa-map-marked-alt"></i> 聯絡地址:嘉義縣梅山鄉永興村九芎坑55-26號</p>
+                        <p class=""><i class="fas fa-map-marked-alt"></i> 聯絡地址：嘉義縣梅山鄉永興村九芎坑55-26號</p>
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
