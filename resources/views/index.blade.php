@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/dist/css/lightbox.min.css">
     <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="Shortcut Icon" type="image/x-icon" href="/img/ico.ico" />
     @livewireStyles
 
     <!-- Scripts -->
