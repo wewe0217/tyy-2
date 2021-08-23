@@ -17,8 +17,8 @@ myscroll = function (id) {
 
 $(window).on('load', function () {
     var $func = [
-        function () { $("#loading_cover").animate({ left: '100%' }, 800, myfunc); },
-        function () { $("#loading_success").delay(800).animate({ height: "200vmax", width: "200vmax", }, 800, myfunc); },
+        function () { $("#loading_cover").animate({ left: '100%' }, 500, myfunc); },
+        function () { $("#loading_success").delay(100).animate({ height: "200vmax", width: "200vmax", }, 600, myfunc); },
         function () { $("#loading").fadeOut(); }
     ];
     var myfunc = function () {
