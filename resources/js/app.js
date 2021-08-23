@@ -2,6 +2,7 @@ require('./bootstrap');
 require('jquery-zoom');
 require('lightbox2');
 require('owl.carousel');
+require('jquery-lazy');
 
 togglefade = function (id) {
     $(id).fadeToggle();
@@ -57,5 +58,11 @@ $(document).ready(function () {
         }else{
             $(".lb-container").unbind();
         };
+      });
+
+      $('.lazy').lazy({
+        effect: "fadeIn",
+        effectTime: 800,
+        threshold: 200
       });
 });

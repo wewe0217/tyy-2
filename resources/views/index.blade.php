@@ -431,22 +431,22 @@
             <div class="w-full">
                 <div class="owl-carousel owl-theme view">
                     <div class="item ">
-                        <img src="/img/view/view.jpg" alt="" class="object-cover h-52">
+                        <img data-src="/img/view/view.jpg" alt="" class="object-cover h-52 lazy">
                     </div>
                     <div class="item h-56">
-                        <img src="/img/view/view-2.jpg" alt="" class="object-cover  h-52">
+                        <img data-src="/img/view/view-2.jpg" alt="" class="object-cover  h-52 lazy">
                     </div>
                     <div class="item ">
-                        <img src="/img/view/view-3.jpg" alt="" class="object-cover  h-52">
+                        <img data-src="/img/view/view-3.jpg" alt="" class="object-cover  h-52 lazy">
                     </div>
                     <div class="item ">
-                        <img src="/img/view/view-4.jpg" alt="" class="object-cover  h-52">
+                        <img data-src="/img/view/view-4.jpg" alt="" class="object-cover  h-52 lazy">
                     </div>
                     <div class="item ">
-                        <img src="/img/view/view-5.jpg" alt="" class="object-cover  h-52">
+                        <img data-src="/img/view/view-5.jpg" alt="" class="object-cover  h-52 lazy">
                     </div>
                     <div class="item">
-                        <img src="/img/view/view-6.jpg" alt="" class="object-cover  h-52">
+                        <img data-src="/img/view/view-6.jpg" alt="" class="object-cover  h-52 lazy">
                     </div>
                 </div>
             </div>
@@ -567,8 +567,8 @@
                                         肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
-                                        <img src="/img/coffee/coffee-2.jpg" alt="" class="" >
-                                        <img src="/img/coffee/coffee-3.jpg" alt="" class="">
+                                        <img data-src="/img/coffee/coffee-2.jpg" alt="" class="lazy" >
+                                        <img data-src="/img/coffee/coffee-3.jpg" alt="" class="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -596,7 +596,7 @@
                         <div class="w-full grid grid-cols-1 grid-rows-4 lg:grid-rows-1 lg:grid-cols-4 gap-4">
                             <div class="p-3  bg-white rounded shadow">
                                 <div class="relative">
-                                    <img src="/img/rooms/room-2-1.jpg" alt="" class="">
+                                    <img data-src="/img/rooms/room-2-1.jpg" alt="" class="lazy">
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-2-1.jpg" data-lightbox="room-2" data-title="內部環境照"
@@ -646,7 +646,7 @@
                             </div>
                             <div class="p-3  bg-white rounded shadow">
                                 <div class="relative">
-                                    <img src="/img/rooms/room-3-1.jpg" alt="" class="">
+                                    <img data-src="/img/rooms/room-3-1.jpg" alt="" class="lazy">
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-3-1.jpg" data-lightbox="room-3" data-title="內部環境照"
@@ -695,7 +695,7 @@
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
-                                    <img src="/img/rooms/room-4-1.jpg" alt="" class="">
+                                    <img data-src="/img/rooms/room-4-1.jpg" alt="" class="lazy">
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-4-1.jpg" data-lightbox="room-4" data-title="內部環境照"
@@ -739,7 +739,7 @@
                             </div>
                             <div class="p-3 bg-white rounded shadow">
                                 <div class=" relative">
-                                    <img src="/img/rooms/room-6-1.jpg" alt="" class="">
+                                    <img data-src="/img/rooms/room-6-1.jpg" alt="" class="lazy">
                                     <div
                                         class="h-full w-full bg-gray-900 bg-opacity-80 opacity-0 hover:opacity-100 transition duration-500 ease-in-out absolute top-0">
                                         <a href="/img/rooms/room-6-1.jpg" data-lightbox="room-6" data-title="內部環境照"
@@ -861,7 +861,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img src="/img/about/homestay-2.jpg" alt="">
+                        <img data-src="/img/about/homestay-2.jpg" alt="lazy">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
