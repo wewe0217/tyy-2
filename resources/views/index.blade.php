@@ -15,14 +15,13 @@
     <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.theme.default.min.css">
     <link rel="Shortcut Icon" type="image/x-icon" href="/img/ico.ico" />
-    @livewireStyles
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="/fontawesome/js/all.js"></script>
 </head>
 
-<body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/about/bg.jpg')">
+<body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/about/bg.webp')">
     {{-- loading page --}}
     <div class="w-screen h-screen bg-gray-900 backdrop-filter backdrop-blur fixed" style="z-index: 999" id="loading">
         <div class="w-full h-full flex flex-col justify-center items-center">
@@ -348,7 +347,7 @@
                 </div>
                 <div class="h-full w-full absolute flex justify-center items-center lg:px-20 px-8">
                     <div class="h-full w-full bg-cover bg-center shadow"
-                        style="background-image: url('/img/about/view.jpg')">
+                        style="background-image: url('/img/about/view.webp')">
                     </div>
                 </div>
             </div>
@@ -384,7 +383,7 @@
                 </div>
                 <div class="w-1/2 lg:w-auto h-28 lg:h-auto pr-1 lg:pr-0">
                     <button type="button" class="w-full h-full block bg-cover bg-bottom"
-                        style="background-image: url('/img/about/homestay.jpg">
+                        style="background-image: url('/img/about/homestay.webp">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                             <div class=" text-white text-xl text-center">
@@ -397,7 +396,7 @@
                 </div>
                 <div class="w-1/2 lg:w-auto  h-28 lg:h-auto pl-1 lg:pl-0">
                     <button type="button" class="w-full h-full block bg-cover bg-bottom"
-                        style="background-image: url('/img/about/coffee.jpg')">
+                        style="background-image: url('/img/about/coffee.webp')">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                             <div class=" text-white text-xl text-center">
@@ -409,7 +408,7 @@
                     </button>
                 </div>
                 <div class="w-full lg:w-auto bg-cover bg-bottom h-32 lg:h-auto mt-2 lg:mt-0"
-                    style="background-image: url('/img/about/view.jpg')">
+                    style="background-image: url('/img/about/view.webp')">
                     <button type="button" class="w-full h-full block">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
@@ -877,8 +876,6 @@
         </div>
 
     </div>
-
-    @livewireScripts
 </body>
 
 </html>
