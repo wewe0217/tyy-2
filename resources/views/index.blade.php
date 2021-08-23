@@ -863,7 +863,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img data-src="/img/about/homestay-2.jpg" alt="lazy">
+                        <img data-src="/img/about/homestay-2.jpg" alt="" class=".lazy">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
