@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="緣際會發現「梅山」是農特產與人情味兼具的純樸山城，地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷，2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
-    <meta >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name', 'Laravel') }}</title>
 
@@ -863,7 +862,7 @@
                         <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
-                        <img data-src="/img/about/homestay-2.jpg" alt="" class=".lazy">
+                        <img data-src="/img/about/homestay-2.jpg" alt="" class="lazy">
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
