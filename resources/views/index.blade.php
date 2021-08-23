@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="緣際會發現「梅山」是農特產與人情味兼具的純樸山城，地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷，2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
+    <meta name="description" content="2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name', 'Laravel') }}</title>
 
@@ -356,7 +356,7 @@
             <div
                 class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
                 <div class="lg:col-span-1 w-full lg:w-auto">
-                    <img src="/img/about/view-2.jpg" alt="" class="">
+                    <img data-src="/img/about/view-2.webp" alt="" class="lazy">
                 </div>
                 <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
                     <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
@@ -431,22 +431,22 @@
             <div class="w-full">
                 <div class="owl-carousel owl-theme view">
                     <div class="item ">
-                        <img data-src="/img/view/view.jpg" alt="" class="object-cover h-52 lazy">
+                        <img src="/img/view/view.webp" alt="" class="object-cover h-52 ">
                     </div>
                     <div class="item h-56">
-                        <img data-src="/img/view/view-2.jpg" alt="" class="object-cover  h-52 lazy">
+                        <img src="/img/view/view-2.webp" alt="" class="object-cover  h-52 ">
                     </div>
                     <div class="item ">
-                        <img data-src="/img/view/view-3.jpg" alt="" class="object-cover  h-52 lazy">
+                        <img src="/img/view/view-3.webp" alt="" class="object-cover  h-52 ">
                     </div>
                     <div class="item ">
-                        <img data-src="/img/view/view-4.jpg" alt="" class="object-cover  h-52 lazy">
+                        <img src="/img/view/view-4.webp" alt="" class="object-cover  h-52 ">
                     </div>
                     <div class="item ">
-                        <img data-src="/img/view/view-5.jpg" alt="" class="object-cover  h-52 lazy">
+                        <img src="/img/view/view-5.webp" alt="" class="object-cover  h-52 ">
                     </div>
                     <div class="item">
-                        <img data-src="/img/view/view-6.jpg" alt="" class="object-cover  h-52 lazy">
+                        <img src="/img/view/view-6.webp" alt="" class="object-cover  h-52 ">
                     </div>
                 </div>
             </div>
@@ -459,9 +459,9 @@
                     <div class="w-full lg:w-1/2 lg:border border-yellow-900 h-96 relative">
                         <div class="w-full h-full absolute lg:-bottom-4 lg:-right-4">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.562534396702!2d120.55421369667815!3d23.572371093942284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec0c13e1cc6f7%3A0x7a5cc5c30dca869!2z5aSp546J5ZyS5pmv6KeA5rih5YGH5LyR6ZaS5rCR5a6_!5e0!3m2!1szh-TW!2stw!4v1627009660607!5m2!1szh-TW!2stw"
+                                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.562534396702!2d120.55421369667815!3d23.572371093942284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec0c13e1cc6f7%3A0x7a5cc5c30dca869!2z5aSp546J5ZyS5pmv6KeA5rih5YGH5LyR6ZaS5rCR5a6_!5e0!3m2!1szh-TW!2stw!4v1627009660607!5m2!1szh-TW!2stw"
                                 style="border:0;" allowfullscreen="" loading="lazy"
-                                class="w-full h-full shadow"></iframe>
+                                class="w-full h-full shadow lazy"></iframe>
                         </div>
                     </div>
                     <div class="w-full lg:w-1/2">
@@ -529,7 +529,7 @@
                 <div class="relative">
                     <div class="w-2/3 lg:w-1/3 h-96 border border-yellow-900 absolute -top-16 left-16"></div>
                     <div class=" absolute w-full lg:w-1/3 -top-10  lg:left-10">
-                        <img src="/img/coffee/coffee.jpg" alt="" class="w-full">
+                        <img data-src="/img/coffee/coffee.jpg" alt="" class="w-full lazy">
                         <div
                             class="w-full h-full bg-gray-600 absolute top-0 bg-opacity-30 backdrop-filter backdrop-grayscale">
                         </div>
@@ -567,7 +567,7 @@
                                         肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
-                                        <img data-src="/img/coffee/coffee-2.jpg" alt="" class="lazy" >
+                                        <img data-src="/img/coffee/coffee-2.webp" alt="" class="lazy" >
                                         <img data-src="/img/coffee/coffee-3.jpg" alt="" class="lazy">
                                     </div>
                                 </div>
@@ -865,10 +865,11 @@
                     </div>
                     <div class="w-full lg:w-auto block">
                         <iframe
-                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E5%25A4%25A9%25E7%258E%2589%25E5%259C%2592%25E6%2599%25AF%25E8%25A7%2580%25E4%25BC%2591%25E9%2596%2592%25E6%25B8%25A1%25E5%2581%2587%25E6%25B0%2591%25E5%25AE%25BF-%25E6%25A2%2585%25E5%25B1%25B1%25E5%2585%25AC%25E5%259C%2592%25E5%25A4%25AA%25E5%25B9%25B3%25E9%259B%25B2%25E6%25A2%25AF%25E8%25BD%2589%25E9%2581%258B%25E7%25AB%2599-%25E8%25B7%259D%25E7%25B4%2584500%25E5%2585%25AC%25E5%25B0%25BA-801386229918610%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+                            data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F%25E5%25A4%25A9%25E7%258E%2589%25E5%259C%2592%25E6%2599%25AF%25E8%25A7%2580%25E4%25BC%2591%25E9%2596%2592%25E6%25B8%25A1%25E5%2581%2587%25E6%25B0%2591%25E5%25AE%25BF-%25E6%25A2%2585%25E5%25B1%25B1%25E5%2585%25AC%25E5%259C%2592%25E5%25A4%25AA%25E5%25B9%25B3%25E9%259B%25B2%25E6%25A2%25AF%25E8%25BD%2589%25E9%2581%258B%25E7%25AB%2599-%25E8%25B7%259D%25E7%25B4%2584500%25E5%2585%25AC%25E5%25B0%25BA-801386229918610%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
                             width="" height="" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
                             allowfullscreen="true"
-                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                            class="lazy"></iframe>
                     </div>
                 </div>
             </div>
