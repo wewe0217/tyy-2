@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="緣際會發現「梅山」是農特產與人情味兼具的純樸山城，地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷，2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
+    <meta name="description" content="緣際會發現「梅山」是農特產與人情味兼具的純樸山城，地標北緯23.5°，氣候宜人，舉凡咖啡、茶、竹筍、水果、檳榔等等蔬果產季幾乎常年不斷，2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name', 'Laravel') }}</title>
 
@@ -141,8 +140,8 @@
             style="z-index:900;background-color: #e8f4d9d0">
             <div class=" container m-auto">
                 <div class="w-full flex text-gray-800">
-                    <div class=" cursor-pointer" onclick="myscroll('header')">
-                        <div class=" inline-block">
+                    <div class=" cursor-pointer" onclick="myscroll('header')" >
+                        <div class=" inline-block" >
                             <p class="">
                                 <svg version="1.1" id="header_name" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -283,7 +282,7 @@
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
-                <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold">
+                <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold" >
                     <p class="">天玉園景觀休閒渡假民宿</p>
                 </div>
                 <button class="text-gray-600 h-10 w-10 text-3xl">
@@ -358,7 +357,7 @@
             <div
                 class=" container m-auto flex lg:flex-none flex-wrap justify-center lg:grid lg:grid-cols-3 lg:grid-rows-2 lg:gap-3 px-4">
                 <div class="lg:col-span-1 w-full lg:w-auto">
-                    <img data-src="/img/about/view-2.jpg" alt="" class="lazy">
+                    <img src="/img/about/view-2.jpg" alt="" class="">
                 </div>
                 <div class="w-full lg:w-auto lg:col-span-2 bg-opacity-90 bg-white p-8 mb-2 lg:mb-0">
                     <p class=" text-xl text-gray-600 font-semibold px-2 border-l border-gray-400 mb-4">
@@ -385,7 +384,7 @@
                 </div>
                 <div class="w-1/2 lg:w-auto h-28 lg:h-auto pr-1 lg:pr-0">
                     <button type="button" class="w-full h-full block bg-cover bg-bottom"
-                        style="background-image: url('/img/about/homestay.jpg')">
+                        style="background-image: url('/img/about/homestay.jpg">
                         <div
                             class="h-full w-full bg-gray-900 bg-opacity-80 justify-center items-center hidden lg:flex opacity-0 hover:opacity-100 transition duration-500 ease-in-out">
                             <div class=" text-white text-xl text-center">
@@ -531,7 +530,7 @@
                 <div class="relative">
                     <div class="w-2/3 lg:w-1/3 h-96 border border-yellow-900 absolute -top-16 left-16"></div>
                     <div class=" absolute w-full lg:w-1/3 -top-10  lg:left-10">
-                        <img data-src="/img/coffee/coffee.jpg" alt="" class="w-full lazy">
+                        <img src="/img/coffee/coffee.jpg" alt="" class="w-full">
                         <div
                             class="w-full h-full bg-gray-600 absolute top-0 bg-opacity-30 backdrop-filter backdrop-grayscale">
                         </div>
@@ -563,14 +562,13 @@
                                             class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
                                         <br class="lg:hidden">
                                         <a href="/img/coffee/price.jpg"
-                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist"
-                                            data-lightbox="coffee" data-title="咖啡價目表">咖啡品項一覽</a>
+                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist" data-lightbox="coffee" data-title="咖啡價目表">咖啡品項一覽</a>
                                     </p>
                                     <p class="mt-2 pl-4">
                                         肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
-                                        <img data-src="/img/coffee/coffee-2.jpg" alt="" class="lazy">
+                                        <img data-src="/img/coffee/coffee-2.jpg" alt="" class="lazy" >
                                         <img data-src="/img/coffee/coffee-3.jpg" alt="" class="lazy">
                                     </div>
                                 </div>
@@ -638,7 +636,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:3800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:2800元</span>
@@ -688,7 +686,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:3800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:2800元</span>
@@ -732,7 +730,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:4800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:4000元</span>
@@ -779,7 +777,7 @@
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price">
+                                <p class=" text-center p-4 font-medium price" >
                                     <span>定價:6000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:5400元</span>
@@ -796,8 +794,7 @@
                     </p>
                 </div>
                 {{-- 背景方框 --}}
-                <div class="h-3/5 w-3/4 -top-80 -left-20 absolute" style="z-index: -10;background-color: #90360233">
-                </div>
+                <div class="h-3/5 w-3/4 -top-80 -left-20 absolute" style="z-index: -10;background-color: #90360233"></div>
                 {{-- 背景方框 --}}
                 <div class="bg-white rounded p-8">
                     <div class="w-full h-full flex flex-wrap items-center divide-y-2 lg:divide-y-0 lg:divide-x-2">
