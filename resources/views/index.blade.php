@@ -9,6 +9,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
+    <link rel="canonical" href="https://www.tyy.com.tw" />
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="/dist/css/lightbox.min.css">
