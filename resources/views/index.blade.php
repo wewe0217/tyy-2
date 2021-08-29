@@ -11,7 +11,6 @@
     <!-- Styles -->
     <link rel="canonical" href="https://www.tyy.com.tw" />
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="/dist/css/lightbox.min.css">
     <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/OwlCarousel/dist/assets/owl.theme.default.min.css">
@@ -19,7 +18,6 @@
 
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
-    <script src="/fontawesome/js/all.js"></script>
 </head>
 
 <body class="w-screen m-0 p-0 relative bg-cover" style="background-image: url('img/about/bg.webp')">
@@ -258,17 +256,24 @@
                             <button type="button" class="text-xl" onclick="myscroll('book')">訂房須知</button>
                         </div>
                     </div>
-                    <div class=" flex items-end">
-                        <div class="">
-                            <span class="mr-2 ml-4 border-r h-full border-gray-800"></span>
-                            <button type="button" class=" text-lg"><i class="fas fa-phone-volume"></i>
-                                訂房專線:(05)2627-233</button>
-                            <span class="mx-2 border-r h-full border-gray-800"></span>
+                    <div class="">
+                        <div class="flex items-end h-full">
+                            <a class="text-lg border-l border-gray-800 px-2" >
+                                <div class="flex items-center">
+                                    <img src="/img/fonts/phone.svg" alt="" class=" w-[16px]">
+                                    <span class="text-lg">訂房專線:(05)2627-233</span>
+                                </div>
+                            </a>
                             <a href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
-                                class=" text-lg"><i class="fab fa-facebook-square"></i>
-                                Facebook</a>
+                                class=" text-lg border-l border-gray-800 px-2">
+                                <div class=" flex items-center">
+                                    <img src="/img/fonts/facebook.svg" alt="" srcset="" class="w-[16px]">
+                                    <span class="mx-1">Facebook</span>
+                                </div>
+                            </a>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -279,7 +284,7 @@
                 <div
                     class="text-gray-400 border border-gray-400 rounded w-10 h-10 text-2xl flex justify-center items-center">
                     <button type="button" onclick="togglefade('#nav-mobile-open');togglefade('#nav-mobile')">
-                        <i class="fas fa-bars"></i>
+                        <img src="/img/fonts/bars.svg" alt="" srcset="" class="h-[25px] w-[21px]">
                     </button>
                 </div>
                 <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold" >
@@ -288,7 +293,7 @@
                 <button class="text-gray-600 h-10 w-10 text-3xl">
                     <a href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
                         class="">
-                        <i class="fab fa-facebook-square"></i>
+                        <img src="/img/fonts/facebook.svg" alt="" srcset="" class="w-[26px]">
                     </a>
                 </button>
             </div>
@@ -300,7 +305,7 @@
                     <div
                         class="text-gray-400 border border-gray-400 rounded w-10 h-10 text-2xl flex justify-center items-center">
                         <button type="button" onclick="togglefade('#nav-mobile');togglefade('#nav-mobile-open')">
-                            <i class="fas fa-times"></i>
+                            <img src="/img/fonts/times.svg" alt="" srcset="" class="h-[25px] w-[21px]">
                         </button>
                     </div>
                     <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold">
@@ -309,7 +314,7 @@
                     <button class="text-gray-600 h-10 w-10 text-3xl">
                         <a href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
                             class="">
-                            <i class="fab fa-facebook-square"></i>
+                            <img src="/img/fonts/facebook.svg" alt="" srcset="" class="w-[26px]">
                         </a>
                     </button>
                 </div>
@@ -331,11 +336,11 @@
                         onclick="myscroll('book')">訂房須知</button>
 
                     <div class="text-lg text-gray-600 font-semibold w-full text-center">
-                        <p class=""><i class="fas fa-phone-volume"></i> 訂房專線:</p>
+                        <p class=""><img src="/img/fonts/phone.svg" alt="" class="h-[18px] w-auto inline mb-1"> 訂房專線:</p>
                         <p class="">(05)2627-233</p>
-                        <p class=""><i class="fas fa-map-marked-alt"></i> 聯絡地址:</p>
+                        <p class=""><img src="/img/fonts/map.svg" alt="" class="h-[18px] w-auto inline mb-1"> 聯絡地址:</p>
                         <p class="">嘉義縣梅山鄉永興村九芎坑55-26號</p>
-                        <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
+                        <p class=""><img src="/img/fonts/home.svg" alt="" class="h-[18px] w-auto inline mb-1"> 嘉義縣合法民宿280號</p>
                     </div>
                 </div>
             </div>
@@ -620,19 +625,22 @@
                                 </p>
                                 <div class="flex justify-center gap-2">
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-bed fa-2x"></i> <i class="fas fa-plus"></i></p>
+                                        <p class="">
+                                            <img src="/img/fonts/bed.svg" alt="" class=" w-10 h-8 inline">
+                                            <img src="/img/fonts/plus.svg" alt="" class=" w-[14px] h-[16px] inline">
+                                        </p>
                                         <p class="">加大床</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-bath fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/bath.svg" alt="" class=" w-8 h-8 inline"></p>
                                         <p class="">按摩浴缸</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-tree fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/tree.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">景觀</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
@@ -670,19 +678,19 @@
                                 </p>
                                 <div class="flex justify-center gap-2">
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-sun fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/sun.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">落地窗</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-shower fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/shower.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">半套衛浴</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-umbrella-beach fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/umbrella-beach.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">後陽台</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
@@ -721,12 +729,14 @@
                                 </p>
                                 <div class="flex justify-center gap-2">
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-shower fa-2x"></i><i
-                                                class="fas fa-shoe-prints"></i></p>
+                                        <p class="">
+                                            <img src="/img/fonts/shower.svg" alt="" class=" w-auto h-8 inline">
+                                            <img src="/img/fonts/shoe-prints.svg" alt="" class=" w-auto h-4 inline">
+                                        </p>
                                         <p class="">乾溼分離</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
@@ -765,15 +775,15 @@
                                 </p>
                                 <div class="flex justify-center gap-2">
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-bath fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/bath.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">房外衛浴</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-tree fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/tree.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">景觀</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><i class="fas fa-utensils fa-2x"></i></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
@@ -853,13 +863,13 @@
             <div class=" container m-auto p-8">
                 <div class="w-full h-full flex gap-8 justify-center flex-wrap">
                     <div class="text-lg text-gray-600 font-semibold w-full lg:w-auto">
-                        <p class=""><i class="fas fa-phone-volume"></i> 訂房專線：(05)2627-233</p>
-                        <p class=""><i class="fas fa-calendar-check"></i> 服務時間：星期一至日8:00~22:00</p>
-                        <p class=""><i class="fab fa-facebook-square"></i> 前往 <a
+                        <p class=""><img src="/img/fonts/phone.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 訂房專線：(05)2627-233</p>
+                        <p class=""><img src="/img/fonts/calendar.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 服務時間：星期一至日8:00~22:00</p>
+                        <p class=""><img src="/img/fonts/facebook.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 前往 <a
                                 href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
                                 class=" text-blue-600">Facebook </a>訂房</p>
-                        <p class=""><i class="fas fa-map-marked-alt"></i> 聯絡地址：嘉義縣梅山鄉永興村九芎坑55-26號</p>
-                        <p class=""><i class="fas fa-home"></i> 嘉義縣合法民宿280號</p>
+                        <p class=""><img src="/img/fonts/map.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 聯絡地址：嘉義縣梅山鄉永興村九芎坑55-26號</p>
+                        <p class=""><img src="/img/fonts/facebook.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
                         <img data-src="/img/about/homestay-2.jpg" alt="" class="lazy">
