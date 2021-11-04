@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
+    <meta name="description"
+        content="2014年夫妻倆毅然決然將人生的下半場全心全力投入此地，以將近七年的時間從無到有、上山下海尋覓體驗，結合我們在北部多年經營地方創生的精神，打造出距離梅山市區最近、以莊園咖啡為主題的「天玉園景觀休閒渡假民宿」">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ config('app.name', 'Laravel') }}</title>
 
@@ -131,6 +132,30 @@
         <div class="w-0 h-0 absolute bottom-0 left-0 rounded-tr-full bg-white" id="loading_success"></div>
     </div>
     {{-- loading page --}}
+    {{-- 公告 --}}
+    <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
+        <div class=" w-full h-full flex justify-center items-center text-lg text-gray-600 font-semibold text-center">
+            <div class="bg-white rounded bg-opacity-80 backdrop-filter backdrop-blur ">
+                <div class="flex items-center justify-center py-1">
+                    <div class="text-2xl">最新優惠訊息</div>
+                    <button type="button" class=" border-2 border-gray-500 rounded mx-1 p-1"
+                        onclick="togglefade('#alert')">
+                        <img src="/img/fonts/times.svg" alt="" srcset="" class="h-[20px] w-auto">
+                    </button>
+                </div>
+                <div class=" border-b border-gray-900 mx-2"></div>
+                <div class="p-2">
+                    <p class="py-1">自<span class="text-2xl text-yellow-500">11</span>月份起凡入住天玉園景觀休閒渡假民宿即贈送價值<span
+                            class="text-2xl text-yellow-500">1000</span>元Q碰券一份</p>
+                    <p class="py-1">內容為每房優惠房價券500元＋伴手禮券500元＋憑住宿證明南故宮博物院免門票…</p>
+                </div>
+                <div class=" bg-gray-600 rounded-b bg-opacity-90">
+                    <p class="py-1 text-white">優惠活動至2022年2／28，數量有限送完為止，歡迎預訂喔！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- 公告 --}}
     <div class=" bg-white bg-opacity-70">
 
         {{-- nav --}}
@@ -138,8 +163,8 @@
             style="z-index:900;background-color: #e8f4d9d0">
             <div class=" container m-auto">
                 <div class="w-full flex text-gray-800">
-                    <div class=" cursor-pointer" onclick="myscroll('header')" >
-                        <div class=" inline-block" >
+                    <div class=" cursor-pointer" onclick="myscroll('header')">
+                        <div class=" inline-block">
                             <p class="">
                                 <svg version="1.1" id="header_name" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -258,7 +283,7 @@
                     </div>
                     <div class="">
                         <div class="flex items-end h-full">
-                            <a class="text-lg border-l border-gray-800 px-2" >
+                            <a class="text-lg border-l border-gray-800 px-2">
                                 <div class="flex items-center">
                                     <img src="/img/fonts/phone.svg" alt="" class=" w-[16px]">
                                     <span class="text-lg">訂房專線:(05)2627-233</span>
@@ -287,7 +312,7 @@
                         <img src="/img/fonts/bars.svg" alt="" srcset="" class="h-[25px] w-[21px]">
                     </button>
                 </div>
-                <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold" >
+                <div class="flex-grow px-4 text-center text-gray-600 text-xl font-semibold">
                     <p class="">天玉園景觀休閒渡假民宿</p>
                 </div>
                 <button class="text-gray-600 h-10 w-10 text-3xl">
@@ -336,11 +361,13 @@
                         onclick="myscroll('book')">訂房須知</button>
 
                     <div class="text-lg text-gray-600 font-semibold w-full text-center">
-                        <p class=""><img src="/img/fonts/phone.svg" alt="" class="h-[18px] w-auto inline mb-1"> 訂房專線:</p>
+                        <p class=""><img src="/img/fonts/phone.svg" alt="" class="h-[18px] w-auto inline mb-1"> 訂房專線:
+                        </p>
                         <p class="">(05)2627-233</p>
                         <p class=""><img src="/img/fonts/map.svg" alt="" class="h-[18px] w-auto inline mb-1"> 聯絡地址:</p>
                         <p class="">嘉義縣梅山鄉永興村九芎坑55-26號</p>
-                        <p class=""><img src="/img/fonts/home.svg" alt="" class="h-[18px] w-auto inline mb-1"> 嘉義縣合法民宿280號</p>
+                        <p class=""><img src="/img/fonts/home.svg" alt="" class="h-[18px] w-auto inline mb-1">
+                            嘉義縣合法民宿280號</p>
                     </div>
                 </div>
             </div>
@@ -567,13 +594,14 @@
                                             class="text-lg text-gray-500 font-normal">-咖啡豆&耳掛咖啡包</span>
                                         <br class="lg:hidden">
                                         <a href="/img/coffee/price.jpg"
-                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist" data-lightbox="coffee" data-title="咖啡價目表">咖啡品項一覽</a>
+                                            class="mx-1 bg-gray-500 text-white text-lg py-1 px-2 font-medium rounded mylist"
+                                            data-lightbox="coffee" data-title="咖啡價目表">咖啡品項一覽</a>
                                     </p>
                                     <p class="mt-2 pl-4">
                                         肯亞TopAA、衣索比亞耶佳雪菲、瓜地馬拉雨林、哥斯大黎加蜜處理、黃金曼特寧、瓜地馬拉經典焦糖、天后漫步、巴西、坦尚尼亞圓豆、阿里山咖啡……
                                     </p>
                                     <div class="grid grid-cols-2 gap-2 lg:p-8">
-                                        <img data-src="/img/coffee/coffee-2.webp" alt="" class="lazy" >
+                                        <img data-src="/img/coffee/coffee-2.webp" alt="" class="lazy">
                                         <img data-src="/img/coffee/coffee-3.jpg" alt="" class="lazy">
                                     </div>
                                 </div>
@@ -636,15 +664,17 @@
                                         <p class="">按摩浴缸</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/tree.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/tree.svg" alt="" class=" w-auto h-8 inline">
+                                        </p>
                                         <p class="">景觀</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt=""
+                                                class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price" >
+                                <p class=" text-center p-4 font-medium price">
                                     <span>定價:3800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:2800元</span>
@@ -682,19 +712,22 @@
                                         <p class="">落地窗</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/shower.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/shower.svg" alt="" class=" w-auto h-8 inline">
+                                        </p>
                                         <p class="">半套衛浴</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/umbrella-beach.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/umbrella-beach.svg" alt=""
+                                                class=" w-auto h-8 inline"></p>
                                         <p class="">後陽台</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt=""
+                                                class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price" >
+                                <p class=" text-center p-4 font-medium price">
                                     <span>定價:3800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:2800元</span>
@@ -736,11 +769,12 @@
                                         <p class="">乾溼分離</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt=""
+                                                class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price" >
+                                <p class=" text-center p-4 font-medium price">
                                     <span>定價:4800元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:4000元</span>
@@ -775,19 +809,22 @@
                                 </p>
                                 <div class="flex justify-center gap-2">
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/bath.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/bath.svg" alt="" class=" w-auto h-8 inline">
+                                        </p>
                                         <p class="">房外衛浴</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/tree.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/tree.svg" alt="" class=" w-auto h-8 inline">
+                                        </p>
                                         <p class="">景觀</p>
                                     </div>
                                     <div class="text-center">
-                                        <p class=""><img src="/img/fonts/utensils.svg" alt="" class=" w-auto h-8 inline"></p>
+                                        <p class=""><img src="/img/fonts/utensils.svg" alt=""
+                                                class=" w-auto h-8 inline"></p>
                                         <p class="">附早餐</p>
                                     </div>
                                 </div>
-                                <p class=" text-center p-4 font-medium price" >
+                                <p class=" text-center p-4 font-medium price">
                                     <span>定價:6000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
                                     <span>假日:5400元</span>
@@ -804,7 +841,8 @@
                     </p>
                 </div>
                 {{-- 背景方框 --}}
-                <div class="h-3/5 w-3/4 -top-80 -left-20 absolute" style="z-index: -10;background-color: #90360233"></div>
+                <div class="h-3/5 w-3/4 -top-80 -left-20 absolute" style="z-index: -10;background-color: #90360233">
+                </div>
                 {{-- 背景方框 --}}
                 <div class="bg-white rounded p-8">
                     <div class="w-full h-full flex flex-wrap items-center divide-y-2 lg:divide-y-0 lg:divide-x-2">
@@ -863,13 +901,18 @@
             <div class=" container m-auto p-8">
                 <div class="w-full h-full flex gap-8 justify-center flex-wrap">
                     <div class="text-lg text-gray-600 font-semibold w-full lg:w-auto">
-                        <p class=""><img src="/img/fonts/phone.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 訂房專線：(05)2627-233</p>
-                        <p class=""><img src="/img/fonts/calendar.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 服務時間：星期一至日8:00~22:00</p>
-                        <p class=""><img src="/img/fonts/facebook.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 前往 <a
-                                href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
-                                class=" text-blue-600">Facebook </a>訂房</p>
-                        <p class=""><img src="/img/fonts/map.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 聯絡地址：嘉義縣梅山鄉永興村九芎坑55-26號</p>
-                        <p class=""><img src="/img/fonts/facebook.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 嘉義縣合法民宿280號</p>
+                        <p class=""><img src="/img/fonts/phone.svg" alt="" class=" w-auto h-[18px] inline mb-1">
+                            訂房專線：(05)2627-233</p>
+                        <p class=""><img src="/img/fonts/calendar.svg" alt="" class=" w-auto h-[18px] inline mb-1">
+                            服務時間：星期一至日8:00~22:00</p>
+                        <p class=""><img src="/img/fonts/facebook.svg" alt="" class=" w-auto h-[18px] inline mb-1"> 前往
+                            <a href="https://www.facebook.com/%E5%A4%A9%E7%8E%89%E5%9C%92%E6%99%AF%E8%A7%80%E4%BC%91%E9%96%92%E6%B8%A1%E5%81%87%E6%B0%91%E5%AE%BF-%E6%A2%85%E5%B1%B1%E5%85%AC%E5%9C%92%E5%A4%AA%E5%B9%B3%E9%9B%B2%E6%A2%AF%E8%BD%89%E9%81%8B%E7%AB%99-%E8%B7%9D%E7%B4%84500%E5%85%AC%E5%B0%BA-801386229918610/"
+                                class=" text-blue-600">Facebook </a>訂房
+                        </p>
+                        <p class=""><img src="/img/fonts/map.svg" alt="" class=" w-auto h-[18px] inline mb-1">
+                            聯絡地址：嘉義縣梅山鄉永興村九芎坑55-26號</p>
+                        <p class=""><img src="/img/fonts/facebook.svg" alt="" class=" w-auto h-[18px] inline mb-1">
+                            嘉義縣合法民宿280號</p>
                     </div>
                     <div class="w-full lg:w-40 hidden lg:block">
                         <img data-src="/img/about/homestay-2.jpg" alt="" class="lazy">
