@@ -481,6 +481,9 @@
                     <div class="item">
                         <img src="/img/view/view-6.webp" alt="" class="object-cover  h-52 ">
                     </div>
+                    <div class="item">
+                        <img src="/img/view/view-7.webp" alt="" class="object-cover  h-52 ">
+                    </div>
                 </div>
             </div>
         </div>
@@ -857,7 +860,7 @@
                                 3.過年期間按定價計費
                             </p>
                             <p class="">
-                                4.本園提供下午茶(每人200元)，需事先預約
+                                4.本園提供下午茶(每人300元)，需事先預約
                             </p>
                             <p class="">
                                 5.本園專營手工客製化咖啡烘焙，提供單品原豆及掛耳式咖啡，來電訂購宅配六盒免運費
