@@ -871,6 +871,9 @@
                             <p class="font-semibold">
                                 ※訂房需先支付住宿費30%之訂金
                             </p>
+                            <p class="font-semibold">
+                                匯款帳號：梅山鄉農會本會(代號617) 帳號:00150221670630  戶名:劉天玉
+                            </p>
                         </div>
                         <div class="text-lg text-gray-600 p-4">
                             <p class="text-xl">
