@@ -678,11 +678,11 @@
                                     </div>
                                 </div>
                                 <p class=" text-center p-4 font-medium price">
-                                    <span>定價:3800元</span>
+                                    <span>定價:4000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>假日:2800元</span>
+                                    <span>假日:3000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>平日:2500元</span>
+                                    <span>平日:2700元</span>
                                 </p>
 
                             </div>
@@ -778,11 +778,11 @@
                                     </div>
                                 </div>
                                 <p class=" text-center p-4 font-medium price">
-                                    <span>定價:4800元</span>
+                                    <span>定價:5200元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>假日:4000元</span>
+                                    <span>假日:4300元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>平日:3600元</span>
+                                    <span>平日:3900元</span>
                                 </p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
