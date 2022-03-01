@@ -133,7 +133,7 @@
     </div>
     {{-- loading page --}}
     {{-- 公告 --}}
-    <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
+    {{-- <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
         <div class=" w-full h-full flex justify-center items-center text-lg text-gray-600 font-semibold text-center">
             <div class="bg-white rounded bg-opacity-80 backdrop-filter backdrop-blur ">
                 <div class="flex items-center justify-center py-1">
@@ -154,7 +154,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     {{-- 公告 --}}
     <div class=" bg-white bg-opacity-70">
 
