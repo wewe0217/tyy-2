@@ -731,11 +731,11 @@
                                     </div>
                                 </div>
                                 <p class=" text-center p-4 font-medium price">
-                                    <span>定價:3800元</span>
+                                    <span>定價:4000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>假日:2800元</span>
+                                    <span>假日:3000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>平日:2500元</span>
+                                    <span>平日:2700元</span>
                                 </p>
                             </div>
                             <div class="p-3 bg-white rounded shadow">
@@ -828,11 +828,11 @@
                                     </div>
                                 </div>
                                 <p class=" text-center p-4 font-medium price">
-                                    <span>定價:6000元</span>
+                                    <span>定價:6600元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>假日:5400元</span>
+                                    <span>假日:6000元</span>
                                     <span class="border-r border-gray-400 mx-1"></span>
-                                    <span>平日:4800元</span>
+                                    <span>平日:5400元</span>
                                 </p>
                             </div>
                         </div>
@@ -860,13 +860,13 @@
                                 3.過年期間按定價計費
                             </p>
                             <p class="">
-                                4.本園提供下午茶(每人300元)，需事先預約
+                                4.本園提供下午茶(每人300元起)，需事先預約
                             </p>
                             <p class="">
                                 5.本園專營手工客製化咖啡烘焙，提供單品原豆及掛耳式咖啡，來電訂購宅配六盒免運費
                             </p>
                             <p class="">
-                                6.收費方式：現金、刷卡、國旅卡、國旅券、五倍券
+                                6.收費方式：現金、刷卡、國旅卡
                             </p>
                             <p class="font-semibold">
                                 ※訂房需先支付住宿費30%之訂金
