@@ -145,7 +145,8 @@
                 </div>
                 <div class=" border-b border-gray-900 mx-2"></div>
                 <div class="p-2">
-                    <p class="py-1">響應嘉義縣政府悠游國旅活動，自
+                    <p class="py-1 text-xl">響應嘉義縣政府悠游國旅活動</p>
+                    <p class="py-1">自
                         <span class="text-2xl text-yellow-500">7／15</span>
                         起至
                         <span class="text-2xl text-yellow-500">12／15</span>
