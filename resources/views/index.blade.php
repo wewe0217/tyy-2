@@ -154,7 +154,7 @@
                         <span class="text-2xl text-yellow-500">500</span>
                         元折抵房價+
                         <span class="text-2xl text-yellow-500">500</span>
-                        元伴手禮。
+                        元伴手禮
                     </p>
                     <p class="py-1">
                         不分平日與假日，不用上網登錄
