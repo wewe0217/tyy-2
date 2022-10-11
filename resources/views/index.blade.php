@@ -133,7 +133,7 @@
     </div>
     {{-- loading page --}}
     {{-- 公告 --}}
-    {{-- <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
+    <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
         <div class=" w-full h-full flex justify-center items-center text-lg text-gray-600 font-semibold text-center">
             <div class="bg-white rounded bg-opacity-80 backdrop-filter backdrop-blur ">
                 <div class="flex items-center justify-center py-1">
@@ -145,26 +145,17 @@
                 </div>
                 <div class=" border-b border-gray-900 mx-2"></div>
                 <div class="p-2">
-                    <p class="py-1 text-xl">響應嘉義縣政府悠游國旅活動</p>
-                    <p class="py-1">自
-                        <span class="text-2xl text-yellow-500">7／15</span>
-                        起至
-                        <span class="text-2xl text-yellow-500">12／15</span>
-                        凡入住天玉園加碼贈送一房一份Q碰券
-                        <span class="text-2xl text-yellow-500">500</span>
-                        元折抵房價+
-                        <span class="text-2xl text-yellow-500">500</span>
-                        元伴手禮
-                    </p>
                     <p class="py-1">
-                        不分平日與假日，不用上網登錄
-                        <span class="text-2xl text-yellow-500">額度有限</span>
-                        用完為止!!
+                        即日起至
+                        <span class="text-2xl text-yellow-500">12／31</span>
+                        入住天玉園免費提供"
+                        <span class="text-2xl text-yellow-500">祈福蔬食簡餐</span>
+                        "歡迎預約喔！
                     </p>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     {{-- 公告 --}}
     <div class=" bg-white bg-opacity-70">
 
