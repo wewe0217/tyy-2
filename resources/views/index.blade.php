@@ -133,7 +133,7 @@
     </div>
     {{-- loading page --}}
     {{-- 公告 --}}
-    {{-- <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
+    <div class="w-screen h-screen fixed p-2" style="z-index: 998" id="alert">
         <div class=" w-full h-full flex justify-center items-center text-lg text-gray-600 font-semibold text-center">
             <div class="bg-white rounded bg-opacity-80 backdrop-filter backdrop-blur ">
                 <div class="flex items-center justify-center py-1">
@@ -146,16 +146,18 @@
                 <div class=" border-b border-gray-900 mx-2"></div>
                 <div class="p-2">
                     <p class="py-1">
-                        即日起至
-                        <span class="text-2xl text-yellow-500">12／31</span>
-                        入住天玉園免費提供"
-                        <span class="text-2xl text-yellow-500">祈福蔬食簡餐</span>
-                        "歡迎預約喔！
+                        恭喜新年快樂！
+                        <br>
+                        官網訊息公告：配合政府環保政策自
+                        <span class="text-2xl text-yellow-500">2023</span>
+                        年
+                        <span class="text-2xl text-yellow-500">1</span>
+                        月份起旅宿業均不主動提供入住旅客一次性使用之盥洗用具。
                     </p>
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     {{-- 公告 --}}
     <div class=" bg-white bg-opacity-70">
 
