@@ -933,6 +933,10 @@ video {
 .rounded {
 	border-radius: 0.25rem;
 }
+.rounded-b {
+	border-bottom-right-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+}
 .rounded-tr-full {
 	border-top-right-radius: 9999px;
 }
@@ -1005,11 +1009,11 @@ video {
 .bg-opacity-80 {
 	--tw-bg-opacity: 0.8;
 }
-.bg-opacity-70 {
-	--tw-bg-opacity: 0.7;
-}
 .bg-opacity-90 {
 	--tw-bg-opacity: 0.9;
+}
+.bg-opacity-70 {
+	--tw-bg-opacity: 0.7;
 }
 .bg-opacity-30 {
 	--tw-bg-opacity: 0.3;
